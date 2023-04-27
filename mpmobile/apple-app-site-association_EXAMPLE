@@ -1,0 +1,13 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [{
+			"appID": "4D3PQ2KJ43.org.reactjs.native.example.mptestmobile",
+			"paths": [
+				"NOT /fbdn/*",
+				"/deep/*",
+				"/*"
+			]
+		}]
+	}
+}

@@ -1,0 +1,125 @@
+.ScenarioCard {
+	font-size: 14px;
+	border-bottom: var(--lightBorder);
+	padding: 15px 0;
+}
+
+.ScenarioCard:last-child {
+	border-bottom: 0;
+}
+
+.ScenarioCard-row {
+	align-items: center;
+	display: flex;
+	position: relative;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+}
+
+.ScenarioCard-row:not(:last-child) {
+	margin-bottom: 3px;
+}
+
+.ScenarioCard-collapsed .ScenarioCard-row:not(.ScenarioCard-rowHeader) {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.ScenarioCard-rowContent {
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+
+.ScenarioCard-waitingForFeedback {
+	font-style: italic;
+}
+
+.ScenarioCard-waitingForFeedback,
+.ScenarioCard-daysLeft {
+	color: var(--grey7);
+	text-transform: lowercase;
+}
+
+.ScenarioCard-daysLeftWarning {
+	color: var(--tomatoRed);
+}
+
+.ScenarioCard-rowMarkerIcon {
+	width: 20px;
+	color: var(--grey3);
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+
+.ScenarioCard-rowHeader {
+	align-items: flex-start;
+	cursor: pointer;
+}
+
+.ScenarioCard-title {
+	font-size: 16px;
+	color: var(--almostBlack);
+	font-weight: 600;
+}
+
+.ScenarioCard-title .MultilineEllipsis {
+	max-width: 90%;
+}
+
+.ScenarioCard-headerContentCol {
+	min-width: 0;
+	flex-grow: 1;
+}
+
+.ScenarioCard-col:first-child {
+	margin-right: 15px;
+	width: 28px;
+	display: flex;
+	justify-content: center;
+	flex-shrink: 0;
+}
+
+/* utils */
+.messageCounter {
+	background-color: var(--grey4);
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	color: var(--white);
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+
+.messageCounter-active {
+	background-color: var(--tomatoRed);
+}
+
+.ScenarioCard-toggle,
+.ScenarioCard-toggle:hover {
+	background: transparent;
+	border: none;
+	color: var(--grey3);
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	margin-left: auto;
+	flex-shrink: 0;
+	margin-right: 0;
+}
+
+.ScenarioCard-toggleCollapsed {
+	transform: rotate(180deg);
+}
+
+.ScenarioCard-dueDate {
+	color: var(--grey3);
+	font-size: 14px;
+}

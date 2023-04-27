@@ -1,0 +1,138 @@
+:root {
+	--Conversation-headerHeight: 80px;
+	--Conversation-messageBoxHeight: 50px;
+}
+
+.Conversation {
+	width: 100%;
+	display: grid;
+	grid-template-areas:
+		'header'
+		'messageList'
+		'messageBox';
+	grid-template-rows: auto 1fr auto;
+}
+
+.Conversation-header {
+	grid-area: header;
+	padding: 23px 90px;
+	height: var(--Conversation-headerHeight);
+	background-color: var(--white);
+	align-items: center;
+	width: calc(100vw - var(--secondary-navigation-width));
+}
+
+.Conversation-messageList {
+	grid-area: messageList;
+	padding: 0 90px;
+	overflow-y: auto;
+}
+
+.Conversation-messageBox {
+	width: 100%;
+	grid-area: messageBox;
+}
+
+.Conversation-evaluation-content {
+	margin-top: 25px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Conversation-delete-dialog-content {
+	font-size: 22px;
+	font-weight: 600;
+	color: var(--black2);
+	text-align: center;
+}
+
+.Conversation-evaluate-dialog {
+	height: 650px;
+	width: 570px;
+}
+
+.Conversation-loading {
+	display: flex;
+	position: relative;
+}
+
+.Conversation-saveBestPracticeVideoDialogError {
+	height: 350px;
+	width: 570px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+@media (max-width: 768px) {
+	.Conversation-mobile-header {
+		padding: 16px 15px;
+		border-bottom: 1px solid var(--grey2);
+		position: fixed;
+		background-color: var(--white);
+		z-index: 1;
+	}
+
+	.Conversation-messageList {
+		padding: calc(var(--mobile-header-height) + 10px) 15px 10px 15px;
+	}
+
+	.Conversation-messageList.MessageList-empty {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.Conversation-evaluate-dialog {
+		width: 100%;
+		height: 100%;
+		border-radius: 0;
+		padding: 0;
+	}
+
+	.Conversation-evaluate-mobile-header {
+		position: fixed;
+		top: 0;
+		padding: 16px 15px;
+		border-bottom: 1px solid var(--grey2);
+		margin-bottom: 15px;
+		background-color: var(--white);
+		z-index: 1;
+	}
+
+	.Conversation-evaluate-mobile-header > .MobileHeader-title {
+		margin-right: 10.5vw;
+	}
+
+	.Conversation-evaluation-content {
+		height: calc(100% - 64px);
+		width: 100%;
+		padding: 0 15px;
+	}
+}
+
+@media (max-width: 1190px) {
+	.Conversation-header {
+		padding: 23px 60px;
+	}
+}
+
+@media (max-width: 992px) {
+	.Conversation-header {
+		padding: 23px 40px;
+	}
+
+	.ConversationHeader-user span {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.Conversation-header {
+		width: 100%;
+	}
+
+	.Conversation-saveBestPracticeVideoDialogError {
+		width: 90%;
+	}
+}

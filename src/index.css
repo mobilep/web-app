@@ -1,0 +1,180 @@
+/* stylelint-disable */
+@import '/css/reboot.css';
+@import '/css/base.css';
+@import '/css/plyr.css';
+
+html,
+body,
+#root,
+#root > div {
+	height: 100%;
+}
+
+body {
+	overflow: hidden;
+}
+
+.ReactOutlineManager .EvaluationRange-evaluation input:focus + label{
+	outline: unset;
+}
+
+@media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+	screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 3) {
+	html {
+		width: 100%;
+		position: fixed;
+		overflow: hidden;
+	}
+
+	body {
+		width: 100%;
+		position: fixed;
+		overflow: hidden;
+	}
+}
+
+img, audio {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* utils */
+.text-danger {
+	color: var(--tomatoRed);
+}
+
+.text-truncate {
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-link,
+.text-link:hover,
+.text-link:active {
+	color: currentColor;
+	text-decoration: none;
+}
+
+.btn-circle,
+.ButtonIcon.btn-circle {
+	border-radius: 50%;
+	flex-shrink: 0;
+	margin-left: 10px;
+	padding: 3px;
+}
+
+.btn-delete,
+.ButtonIcon.btn-delete {
+	background-color: var(--tomatoRed);
+	color: white;
+}
+
+.ButtonIcon.btn-close {
+	background-color: var(--grey4);
+	color: white;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.feedback-dialog {
+	height: 350px;
+	width: 570px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+}
+
+.feedback-dialogContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.feedback-dialogTitle {
+	font-size: 22px;
+	font-weight: 600;
+	margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+	.feedback-dialog {
+		width: 90%;
+	}
+}
+
+.p-l-0 {
+	padding-right: 0 !important;
+}
+
+.p-r-0 {
+	padding-right: 0 !important;
+}
+
+.p-h-0 {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+.p-a-0 {
+	padding: 0 !important;
+}
+
+.listItem {
+	border-right: 6px solid transparent;
+	padding-left: 30px;
+}
+
+.listItem-active {
+	background-color: #EDF7FF;
+	border-right: 6px solid var(--radicalRed);
+}
+
+.space-left {
+	padding-left: 30px;
+}
+
+.space-m-left {
+	margin-left: 30px;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.listItem {
+		padding-left: 0;
+		border-right: 0;
+	}
+
+	.space-left {
+		padding-left: 0;
+	}
+
+	.space-m-left {
+		margin-left: 0;
+	}
+}
+
+.successIcon {
+	color: var(--blue);
+}
+
+.errorIcon {
+	color: var(--tomatoRed);
+}
+
+.container {
+	margin: 0 auto;
+	width: 700px;
+}
+
+@media (max-width: 768px) {
+	.container {
+		padding: 0 16px;
+		width: 100%;
+	}
+}

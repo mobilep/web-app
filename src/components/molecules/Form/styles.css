@@ -1,0 +1,35 @@
+.Form {
+	padding: 10px;
+	text-align: center;
+}
+
+.Form-textInputWrapper {
+	margin-top: 10px;
+}
+
+.Form-buttonWrapper {
+	margin-top: 40px;
+}
+
+.Form-header,
+.Form-paragraph {
+	font-size: 22px;
+}
+
+.Form-paragraph {
+	margin-top: 20px;
+}
+
+.Form-form {
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+	.Form-textInputWrapper {
+		margin-top: 30px;
+	}
+
+	.Form-paragraph {
+		font-size: 18px;
+	}
+}

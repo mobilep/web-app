@@ -1,0 +1,118 @@
+:root {
+	--VideoTile-cancelButtonSize: 30px;
+	--VideoTile-iconButtonSize: 54px;
+	--VideoTile-messageHeight: 158px;
+	--VideoTile-messageWidth: 250px;
+}
+
+.VideoTile,
+.VideoTile-authorDetails {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: var(--VideoTile-messageWidth);
+	height: var(--VideoTile-messageHeight);
+	border-radius: var(--borderRadius);
+	background: linear-gradient(293deg, var(--tomatoRed), var(--sunsetOrange));
+	background-size: cover;
+	background-position: center center;
+	color: var(--white);
+}
+
+.VideoTile-userInitials {
+	font-size: 3em;
+}
+
+.VideoTile > button {
+	padding: 0;
+	background-color: var(--grey-blur);
+	border: none;
+	border-radius: 50%;
+}
+
+.VideoTile-cancelButton {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: var(--VideoTile-cancelButtonSize);
+	height: var(--VideoTile-cancelButtonSize);
+	transform: translate(-50%, -50%);
+}
+
+.VideoTile-playButton {
+	width: var(--VideoTile-iconButtonSize);
+	height: var(--VideoTile-iconButtonSize);
+}
+
+.VideoTile-playIcon {
+	width: 100%;
+	height: 100%;
+}
+
+.VideoTile-playButton:hover {
+	background-color: transparent;
+}
+
+button.VideoTile-addButton {
+	background-image: var(--redGradient);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	border: 0;
+	color: var(--white);
+	cursor: pointer;
+	border-radius: var(--borderRadius);
+}
+
+button.VideoTile-spinnerButton {
+	background: none;
+}
+
+.VideoTile-addIcon {
+	width: calc(var(--VideoTile-iconButtonSize) + 10px);
+	height: calc(var(--VideoTile-iconButtonSize) + 10px);
+}
+
+.VideoTile-addIcon > g {
+	fill: var(--transparentWhite1);
+}
+
+.VideoTile-addText {
+	padding-top: 14px;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+@media (max-width: 768px) {
+	.VideoTile,
+	.VideoTile-authorDetails {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90px;
+		height: 118px;
+		border-radius: var(--borderRadius);
+		background: linear-gradient(293deg, var(--tomatoRed), var(--sunsetOrange));
+		background-size: cover;
+		background-position: center center;
+		color: var(--white);
+	}
+
+	.VideoTile-addIcon {
+		width: calc(36px + 10px);
+		height: calc(36px + 10px);
+	}
+
+	.VideoTile-playButton {
+		width: 36px;
+		height: 36px;
+	}
+
+	.VideoTile-playButton:hover {
+		background-color: transparent;
+	}
+}

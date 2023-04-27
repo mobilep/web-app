@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - DragAndDrop Should render 1`] = `
+<div
+  className="DragAndDrop"
+  onDrop={[Function]}
+>
+  <div
+    className="DragAndDrop-main"
+  >
+    <DragAndDropBrowse
+      buttonLabel="Browse"
+      onClick={[Function]}
+      text="Drag and drop files here 
+ or"
+    />
+    <input
+      accept=".jpg,.png"
+      className="DragAndDrop-input"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="file"
+    />
+  </div>
+  <DragAndDropFileInfo
+    fileCountText="You can add only 1 file."
+    formatNamesArray={
+      Array [
+        "jpg",
+        "png",
+      ]
+    }
+    formatsText="Formats:"
+    maxFileSize={100}
+    maxFileSizeText="The maximum file size is"
+  />
+  <div
+    className="DragAndDrop-btnRow"
+  >
+    <Button
+      color="grey"
+      primary={true}
+    >
+      Cancel
+    </Button>
+    <Button
+      disabled={true}
+      onClick={[Function]}
+      primary={true}
+    >
+      Send
+    </Button>
+  </div>
+</div>
+`;

@@ -1,0 +1,16 @@
+.ScenarioCardList-block:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.ScenarioCardList-blockTitle {
+	font-size: 14px;
+	color: var(--grey7);
+	padding-bottom: 8px;
+	border-bottom: var(--lightBorder);
+}
+
+@media (max-width: 768px) {
+	.ScenarioCardList {
+		padding: 0 10px;
+	}
+}

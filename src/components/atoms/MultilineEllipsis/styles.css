@@ -1,0 +1,17 @@
+.MultilineEllipsis {
+	border: none;
+	padding: 0;
+	text-overflow: ellipsis;
+	max-width: 78%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: inline-block;
+}
+
+@media (max-width: 768px) {
+	.MultilineEllipsis {
+		word-wrap: break-word;
+		white-space: unset;
+		max-width: 70%;
+	}
+}

@@ -1,0 +1,23 @@
+.DropArea {
+	display: flex;
+	height: 260px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.DropArea-paragraph {
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: var(--semiBold);
+	color: var(--black2);
+}
+
+.DropArea-paragraph svg {
+	position: relative;
+	top: 10px;
+	width: 42px;
+	height: 42px;
+	color: var(--tomatoRed);
+	margin-right: 20px;
+}

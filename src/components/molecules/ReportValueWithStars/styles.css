@@ -1,0 +1,17 @@
+.ReportValueWithStars {
+	display: flex;
+	align-items: center;
+}
+
+.ReportValueWithStars-label {
+	font-size: var(--baseFontSize);
+	font-weight: 500;
+	margin-right: 8px;
+	width: 93px;
+}
+
+.ReportValueWithStars-value {
+	font-size: var(--baseFontSize);
+	font-weight: 500;
+	width: 35px;
+}

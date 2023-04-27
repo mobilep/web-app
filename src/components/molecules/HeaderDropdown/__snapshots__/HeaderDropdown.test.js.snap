@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - HeaderDropdown Should render 1`] = `
+<div
+  className="HeaderDropdown"
+>
+  <DotsButton
+    className="HeaderDropdown-dotsButton"
+    onClick={[Function]}
+  />
+  <div
+    className="HeaderDropdown-dropDownWrapper"
+  >
+    <div
+      className="HeaderDropdown-dropDown"
+    >
+      <Button
+        className="HeaderDropdown-button"
+        color="white"
+        key="edit"
+        onClick={[Function]}
+      >
+        edit
+      </Button>
+      <Button
+        className="HeaderDropdown-button"
+        color="white"
+        key="delete"
+        onClick={[Function]}
+      >
+        delete
+      </Button>
+    </div>
+    <div
+      className="HeaderDropdown-triangle"
+    />
+  </div>
+</div>
+`;

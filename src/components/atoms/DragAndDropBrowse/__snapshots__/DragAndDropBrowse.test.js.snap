@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - DragAndDropBrowse Should render 1`] = `
+<div
+  className="DragAndDropBrowse"
+>
+  <span
+    className="DragAndDropBrowse-paragraph"
+  >
+    Text
+  </span>
+  <Button
+    className="DragAndDropBrowse-browseBtn"
+    primary={true}
+  >
+    Button label
+  </Button>
+</div>
+`;

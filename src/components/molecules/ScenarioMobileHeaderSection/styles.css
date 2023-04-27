@@ -1,0 +1,51 @@
+.ScenarioMobileHeaderSection-mainDetails {
+	background-color: var(--grey1);
+	margin: 0 -15px;
+	padding: 15px;
+	display: grid;
+	grid-template-areas:
+		'videTile scenarioName'
+		'videTile peopleCounter';
+	grid-template-columns: 105px minmax(0, 1fr);
+}
+
+.ScenarioMobileHeaderSection-image {
+	grid-area: videTile;
+	align-items: center;
+}
+
+.ScenarioMobileHeaderSection-image .ScenarioHeaderSection-video-tile {
+	background: transparent;
+}
+
+.ScenarioMobileHeaderSection-image .ScenarioHeaderSection-video-tile:disabled {
+	background-color: var(--grey-blur);
+}
+
+.ScenarioMobileHeaderSection-name {
+	grid-area: scenarioName;
+}
+
+.ScenarioMobileHeaderSection-name .ScenarioMobileHeaderSection-input,
+.ScenarioMobileHeaderSection-name .ScenarioMobileHeaderSection-input::placeholder {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.ScenarioMobileHeaderSection-peopleCounter {
+	grid-area: peopleCounter;
+	align-self: end;
+}
+
+.ScenarioMobileHeaderSection-description .ScenarioMobileHeaderSection-input,
+.ScenarioMobileHeaderSection-description .ScenarioMobileHeaderSection-input::placeholder {
+	font-size: var(--mobileInputSize);
+}
+
+@media (max-width: 768px) {
+	.ScenarioMobileHeaderSection-mainDetails {
+		margin-bottom: 15px;
+		border-top: 1px solid var(--grey2);
+		border-bottom: 1px solid var(--grey2);
+	}
+}

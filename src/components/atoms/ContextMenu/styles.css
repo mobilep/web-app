@@ -1,0 +1,54 @@
+.ContextMenu {
+	position: absolute;
+	background-color: var(--white);
+	border: 1px solid  var(--grey2);
+	border-radius: 4px;
+	text-align: left;
+	z-index: 1;
+}
+
+.ContextMenu-button {
+	width: 100%;
+	background-color: transparent;
+	text-align: left;
+	padding: 5px 10px;
+	color: currentColor;
+	border: none;
+	border-radius: 0;
+}
+
+.ContextMenu-button + .ContextMenu-button {
+	border-top: 1px solid var(--grey2);
+}
+
+.ContextMenuBackdrop .ContextMenu-button {
+	text-align: center;
+	height: 50px;
+	font-weight: 600;
+}
+
+.ContextMenu .ContextMenu-button:hover {
+	background-color: var(--grey2);
+	color: currentColor;
+}
+
+.ContextMenuBackdrop {
+	background-color: rgba(135, 135, 135, .7);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	z-index: 999;
+	user-select: none;
+}
+
+.ContextMenuBackdrop .ContextMenu {
+	width: 250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	user-select: none;
+}

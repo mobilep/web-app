@@ -1,0 +1,13 @@
+.AddBestPracticeButton {
+	color: var(--tomatoRed);
+	font-size: 14px;
+}
+
+.AddBestPracticeButton svg {
+	width: 24px;
+	height: 24px;
+}
+
+.AddBestPracticeButton .ButtonIcon-label {
+	margin-left: 12px;
+}

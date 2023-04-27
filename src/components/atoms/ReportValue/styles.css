@@ -1,0 +1,59 @@
+.ReportValue {
+	text-align: center;
+	width: 100px;
+}
+
+.ReportValue-value {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.ReportValue[data-size='sm'] .ReportValue-value {
+	font-size: 24px;
+}
+
+.ReportValue[data-size='xs'] .ReportValue-value {
+	font-size: 14px;
+}
+
+.ReportValue[data-accent='success'] {
+	color: var(--success);
+}
+
+.ReportValue[data-accent='danger'] {
+	color: var(--radicalRed);
+}
+
+.ReportValue-icon {
+	font-size: 0;
+	height: 24px;
+	margin-right: 5px;
+	width: 26px;
+}
+
+.ReportValue[data-size='xs'] .ReportValue-icon {
+	height: 16px;
+	width: 16px;
+}
+
+.ReportValue-maxValue {
+	color: var(--grey3);
+}
+
+.ReportValue-label {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+@media (max-width: 768px) {
+	.ReportValue-value {
+		font-size: 24px;
+	}
+
+	.ReportValue[data-size='sm'] .ReportValue-value {
+		font-size: 20px;
+	}
+}

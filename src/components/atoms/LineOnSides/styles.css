@@ -1,0 +1,28 @@
+.LineOnSides {
+	color: var(--grey3);
+	font-size: 12px;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+}
+
+.LineOnSides::before,
+.LineOnSides::after {
+	background-color: var(--transparentGrey3);
+	content: '';
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.LineOnSides::before {
+	margin-left: -50%;
+	right: 20px;
+}
+
+.LineOnSides::after {
+	left: 20px;
+	margin-right: -50%;
+}

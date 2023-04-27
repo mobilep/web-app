@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - SelectList Should render 1`] = `
+<div
+  className="SelectList"
+>
+  <button
+    className="SelectList-item"
+    key="selectItem0"
+    onClick={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    first item
+  </button>
+  <button
+    className="SelectList-item SelectList-item-active"
+    key="selectItem1"
+    onClick={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    second item
+  </button>
+  <button
+    className="SelectList-item"
+    key="selectItem2"
+    onClick={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    third item
+  </button>
+</div>
+`;

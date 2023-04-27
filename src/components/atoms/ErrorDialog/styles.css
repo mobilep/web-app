@@ -1,0 +1,54 @@
+.ErrorDialog {
+	width: 570px;
+	height: 350px;
+	display: flex;
+}
+
+.ErrorDialog-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ErrorDialog-icon {
+	width: 60px;
+	height: 60px;
+	color: var(--tomatoRed);
+}
+
+.ErrorDialog-icon svg {
+	width: inherit;
+	height: inherit;
+}
+
+.ErrorDialog-text-content {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.ErrorDialog-header {
+	font-size: 22px;
+	line-height: 1.4;
+	color: var(--black2);
+}
+
+.ErrorDialog-message {
+	font-size: 14px;
+	color: var(--almostBlack);
+	margin-top: 10px;
+}
+
+.ErrorDialog-button-wrapper {
+	margin-top: 30px;
+}
+
+.ErrorDialog-button {
+	width: 150px;
+	height: 36px;
+}
+
+@media (max-width: 768px) {
+	.ErrorDialog {
+		width: 90%;
+	}
+}

@@ -1,0 +1,145 @@
+.MessageList-contextMenu {
+	position: absolute;
+	background-color: var(--white);
+	border: 1px solid  var(--grey2);
+	border-radius: 4px;
+	text-align: left;
+	z-index: 1;
+}
+
+.MessageList-content {
+	overflow-y: auto;
+	padding-bottom: 30px;
+}
+
+.MessageList-contextMenu-button {
+	width: 100%;
+	background-color: transparent;
+	text-align: left;
+	padding: 5px 10px;
+	color: currentColor;
+	border: none;
+	border-radius: 0;
+}
+
+.MessageList-content-empty {
+	height: 100%;
+}
+
+.MessageList-contextMenu-button + .MessageList-contextMenu-button {
+	border-top: 1px solid var(--grey2);
+}
+
+.MessageList-contextMenu .MessageList-contextMenu-button:hover {
+	background-color: var(--grey2);
+	color: currentColor;
+}
+
+.MessageList-deleteMessageDialog {
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.MessageList-saveAsBestPracticeVideoDialog {
+	padding: 0;
+}
+
+.MessageList-saveAsBestPracticeVideoDialog .DialogWithButtonGroup-content {
+	width: 500px;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+}
+
+.MessageList-saveAsBestPracticeVideoDialog .DialogWithButtonGroup-content span {
+	font-size: 22px;
+	font-weight: 600;
+	text-align: left;
+	margin-bottom: 60px;
+}
+
+input.MessageList-bestPracticeName {
+	font-size: 22px;
+	color: var(--almostBlack);
+	width: 100%;
+	line-height: 33px;
+	border: none;
+	height: 30px;
+	padding: 0;
+}
+
+input.MessageList-bestPracticeName::placeholder {
+	color: var(--grey3);
+	font-size: 22px;
+	font-weight: 600;
+}
+
+input.MessageList-bestPracticeName::-ms-input-placeholder {
+	color: var(--grey3);
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.MessageList-dividerLine:not(:first-child) {
+	margin-top: 25px;
+}
+
+@media (max-width: 768px) {
+	.MessageList-saveAsBestPracticeVideoDialog {
+		height: 250px;
+		padding: 20px;
+	}
+
+	.MessageList-saveAsBestPracticeVideoDialog .DialogWithButtonGroup-content {
+		width: 100%;
+		margin-bottom: 0;
+	}
+
+	.MessageList-saveAsBestPracticeVideoDialog .DialogWithButtonGroup-content span {
+		font-size: var(--mobileInputSize);
+		margin-bottom: 20px;
+	}
+
+	input.MessageList-bestPracticeName {
+		font-size: var(--mobileInputSize);
+	}
+
+	input.MessageList-bestPracticeName::placeholder {
+		font-size: var(--mobileInputSize);
+	}
+
+	.MessageList-content-empty {
+		height: auto;
+		flex-grow: 1;
+		display: flex;
+		align-items: center;
+	}
+}
+
+.MessageList-mobileContextMenuBackdrop {
+	background-color: rgba(135, 135, 135, .7);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	z-index: 999;
+	user-select: none;
+}
+
+.MessageList-mobileContextMenuBackdrop .MessageList-contextMenu {
+	width: 250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	user-select: none;
+}
+
+.MessageList-mobileContextMenuBackdrop .MessageList-contextMenu button {
+	text-align: center;
+	height: 50px;
+	font-weight: 600;
+}

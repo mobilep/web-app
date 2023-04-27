@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - SecondaryNavigation Should render 1`] = `
+<div
+  className="SecondaryNavigation"
+>
+  <div
+    className="SecondaryNavigation-header"
+  >
+    <h3
+      className="SecondaryNavigation-headerText"
+    >
+      Header text
+    </h3>
+  </div>
+  <div
+    className="SecondaryNavigation-content"
+  >
+    Items
+  </div>
+</div>
+`;
+
+exports[`Atom - SecondaryNavigation Should render with an action button 1`] = `
+<div
+  className="SecondaryNavigation"
+>
+  <div
+    className="SecondaryNavigation-header"
+  >
+    <h3
+      className="SecondaryNavigation-headerText"
+    >
+      Header text
+    </h3>
+    <div />
+  </div>
+  <div
+    className="SecondaryNavigation-content"
+  >
+    Items
+  </div>
+</div>
+`;

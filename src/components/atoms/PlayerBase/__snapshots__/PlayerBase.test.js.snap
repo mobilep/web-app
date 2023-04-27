@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - PlayerBase Should render 1`] = `
+<video
+  autoPlay={true}
+  className="PlayerBase"
+  controls={true}
+/>
+`;

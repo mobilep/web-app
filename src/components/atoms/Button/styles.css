@@ -1,0 +1,76 @@
+:root {
+	--Button-transition: .1s ease-in-out;
+}
+
+.Button {
+	background-color: var(--tomatoRed);
+	border-radius: var(--borderRadius);
+	border-width: 1px;
+	border-style: solid;
+	border-color: var(--tomatoRed);
+	color: var(--white);
+	cursor: pointer;
+	font-size: 14px;
+	padding: 5px 16px;
+	transition:
+		background-color var(--Button-transition),
+		border-color var(--Button-transition),
+		opacity var(--Button-transition);
+	user-select: none;
+}
+
+.Button-primary {
+	font-size: 16px;
+	min-width: 150px;
+}
+
+.Button:disabled {
+	cursor: not-allowed;
+	opacity: .7;
+}
+
+.Button-grey,
+.Button-white {
+	color: var(--tomatoRed);
+}
+
+.Button-grey {
+	background-color: var(--grey1);
+	border-color: var(--grey1);
+}
+
+.Button-white,
+.Button-white:hover {
+	background-color: var(--white);
+	border-color: var(--white);
+	color: var(--tomatoRed);
+}
+
+.Button-text,
+.Button-text:hover {
+	font-size: 16px;
+	background-color: transparent;
+	border: none;
+	color: var(--tomatoRed);
+}
+
+@media (hover: hover) {
+	.Button:hover {
+		background-color: var(--darkRed);
+		border-color: var(--darkRed);
+		color: var(--white);
+		text-decoration: none;
+	}
+
+	.Button-grey:hover {
+		background-color: var(--white);
+		border-color: var(--tomatoRed);
+		color: var(--tomatoRed);
+	}
+
+	.Button-text:hover {
+		background-color: transparent;
+		text-decoration: underline;
+		color: var(--darkRed);
+	}
+}

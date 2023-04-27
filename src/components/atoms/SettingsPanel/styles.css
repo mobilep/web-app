@@ -1,0 +1,90 @@
+@media (max-width: 768px) {
+	.SettingsPanel {
+		--SettingsPanel-aFontSize: inherit;
+		--SettingsPanel-aTextDecoration: underline;
+		--SettingsPanel-contentMargin: 10px;
+		--SettingsPanel-h1Margin: 2em 0 .25em;
+		--SettingsPanel-pFontSize: .86em;
+		--SettingsPanel-svgMargin: 2.2em 10px 0;
+		--SettingsPanel-svgSize: 40px;
+
+		grid-template-areas: 'hr hr' 'icon .';
+		grid-template-rows: .5em auto;
+		grid-template-columns: calc(var(--SettingsPanel-svgSize) + 1em) auto;
+	}
+}
+
+@media (min-width: 769px) {
+	.SettingsPanel {
+		--SettingsPanel-aFontSize: 1.15em;
+		--SettingsPanel-aTextDecoration: none;
+		--SettingsPanel-contentMargin: 20px;
+		--SettingsPanel-h1Margin: 1em 0 .8em;
+		--SettingsPanel-pFontSize: inherit;
+		--SettingsPanel-svgMargin: 0 20px;
+		--SettingsPanel-svgSize: 64px;
+
+		grid-template-areas: 'icon' 'hr' '.';
+		grid-template-rows: calc(var(--SettingsPanel-svgSize) + 1em) .5em auto;
+	}
+}
+
+.SettingsPanel {
+	font-size: 14px;
+	display: grid;
+}
+
+.SettingsPanel svg {
+	color: var(--tomatoRed);
+	grid-area: icon;
+	height: var(--SettingsPanel-svgSize);
+	margin: var(--SettingsPanel-svgMargin);
+	width: var(--SettingsPanel-svgSize);
+}
+
+.SettingsPanel hr {
+	background-color: var(--grey2);
+	border: 0;
+	grid-area: hr;
+	height: 1px;
+	width: 100%;
+}
+
+.SettingsPanel-content {
+	margin: 0 var(--SettingsPanel-contentMargin);
+}
+
+.SettingsPanel-content h1 {
+	color: var(--grey3);
+	font-size: inherit;
+	font-weight: 400;
+	margin: var(--SettingsPanel-h1Margin);
+	text-transform: uppercase;
+}
+
+.SettingsPanel-content p {
+	font-size: var(--SettingsPanel-pFontSize);
+	margin-bottom: .3em;
+}
+
+.SettingsPanel-content button,
+.SettingsPanel-content select {
+	margin-top: .5em;
+	text-align: inherit;
+}
+
+.SettingsPanel-content a {
+	color: var(--tomatoRed);
+	font-size: var(--SettingsPanel-aFontSize);
+	text-decoration: var(--SettingsPanel-aTextDecoration);
+}
+
+.SettingsPanel-content button {
+	font-size: var(--SettingsPanel-aFontSize);
+}
+
+.SettingsPanel-content a:focus,
+.SettingsPanel-content a:hover {
+	color: var(--tomatoRed);
+	text-decoration: underline;
+}

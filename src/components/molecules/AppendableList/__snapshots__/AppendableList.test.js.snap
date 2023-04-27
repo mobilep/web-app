@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - AppendableList Should render as editable 1`] = `
+<ul
+  className="AppendableList"
+>
+  <AppendableListItem
+    className="AppendableList-listItem"
+    editable={true}
+    index={0}
+    key="0"
+    onRemoveItem={[Function]}
+    type="check"
+  >
+    Some item
+  </AppendableListItem>
+  <AppendableListItem
+    className="AppendableList-listItem"
+    editable={true}
+    index={1}
+    key="1"
+    onRemoveItem={[Function]}
+    type="check"
+  >
+    Another item
+  </AppendableListItem>
+  <AppendableListItem
+    className="AppendableList-listItem"
+    editable={true}
+    index={2}
+    key="2"
+    onRemoveItem={[Function]}
+    type="check"
+  >
+    Third item
+  </AppendableListItem>
+  <AddItem
+    maxLength={128}
+    onNewItem={[Function]}
+    placeholder="Add item"
+  />
+</ul>
+`;
+
+exports[`Molecule - AppendableList Should render with type check 1`] = `
+<ul
+  className="AppendableList"
+>
+  <AppendableListItem
+    className="AppendableList-listItem"
+    index={0}
+    key="0"
+    onRemoveItem={[Function]}
+    type="check"
+  >
+    Some item
+  </AppendableListItem>
+  <AppendableListItem
+    className="AppendableList-listItem"
+    index={1}
+    key="1"
+    onRemoveItem={[Function]}
+    type="check"
+  >
+    Another item
+  </AppendableListItem>
+  <AppendableListItem
+    className="AppendableList-listItem"
+    index={2}
+    key="2"
+    onRemoveItem={[Function]}
+    type="check"
+  >
+    Third item
+  </AppendableListItem>
+</ul>
+`;
+
+exports[`Molecule - AppendableList Should render with type step 1`] = `
+<ul
+  className="AppendableList"
+>
+  <AppendableListItem
+    className="AppendableList-listItem"
+    index={0}
+    key="0"
+    onRemoveItem={[Function]}
+    type="step"
+  >
+    Some item
+  </AppendableListItem>
+  <AppendableListItem
+    className="AppendableList-listItem"
+    index={1}
+    key="1"
+    onRemoveItem={[Function]}
+    type="step"
+  >
+    Another item
+  </AppendableListItem>
+  <AppendableListItem
+    className="AppendableList-listItem"
+    index={2}
+    key="2"
+    onRemoveItem={[Function]}
+    type="step"
+  >
+    Third item
+  </AppendableListItem>
+</ul>
+`;

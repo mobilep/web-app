@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - Form Should render 1`] = `
+<div
+  className="Form "
+>
+  <div
+    className="Form-header"
+  >
+    Header
+  </div>
+  <div
+    className="Form-paragraph"
+  >
+    Paragraph
+  </div>
+  <form
+    className="Form-form"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <ContextProvider
+      value={
+        Object {
+          "showError": false,
+        }
+      }
+    >
+      Content
+    </ContextProvider>
+  </form>
+</div>
+`;
+
+exports[`Molecule - Form Should render in submitting state 1`] = `
+<div
+  className="Form "
+>
+  <div
+    className="Form-header"
+  >
+    Header
+  </div>
+  <div
+    className="Form-paragraph"
+  >
+    Paragraph
+  </div>
+  <form
+    className="Form-form"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <ContextProvider
+      value={
+        Object {
+          "showError": false,
+        }
+      }
+    >
+      Content
+    </ContextProvider>
+  </form>
+</div>
+`;

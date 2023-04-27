@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - ViewDetailsLink Should render 1`] = `
+<Button
+  className="ViewDetailsLink"
+  to="someTestUrl"
+/>
+`;

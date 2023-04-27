@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - AppendableListItem Should render with type 'add' 1`] = `
+<li
+  className="AppendableListItem AppendableListItem-add AppendableListItem-red"
+>
+  <button>
+    <div
+      className="AppendableListItem-icon"
+    >
+      +
+    </div>
+  </button>
+</li>
+`;
+
+exports[`Atom - AppendableListItem Should render with type 'check' 1`] = `
+<li
+  className="AppendableListItem"
+>
+  <div
+    className="AppendableListItem-icon"
+  >
+    <CheckIcon
+      className="AppendableListItem-checkicon"
+    />
+  </div>
+</li>
+`;
+
+exports[`Atom - AppendableListItem Should render with type 'step' 1`] = `
+<li
+  className="AppendableListItem AppendableListItem-step"
+>
+  <div
+    className="AppendableListItem-icon"
+  >
+    1
+  </div>
+</li>
+`;

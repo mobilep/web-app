@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - InputError Should render with position bottomLeftPopUp 1`] = `
+<div
+  className="InputError InputError-bottomLeftPopUp InputError-white-icon"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <PopUp
+    background="white"
+    className="InputError-message"
+    position="topLeft"
+    text="Message text"
+  />
+  <WarningIcon />
+</div>
+`;
+
+exports[`Molecule - InputError Should render with position bottomRightPopUp 1`] = `
+<div
+  className="InputError InputError-bottomRightPopUp InputError-white-icon"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <PopUp
+    background="white"
+    className="InputError-message"
+    position="topRight"
+    text="Message text"
+  />
+  <WarningIcon />
+</div>
+`;
+
+exports[`Molecule - InputError Should render with position leftPopUp 1`] = `
+<div
+  className="InputError InputError-leftPopUp InputError-white-icon"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <PopUp
+    background="white"
+    className="InputError-message"
+    position="right"
+    text="Message text"
+  />
+  <WarningIcon />
+</div>
+`;
+
+exports[`Molecule - InputError Should render with position rightPopUp 1`] = `
+<div
+  className="InputError InputError-rightPopUp InputError-white-icon"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <PopUp
+    background="white"
+    className="InputError-message"
+    position="left"
+    text="Message text"
+  />
+  <WarningIcon />
+</div>
+`;
+
+exports[`Molecule - InputError Should render with position topLeftPopUp 1`] = `
+<div
+  className="InputError InputError-topLeftPopUp InputError-white-icon"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <PopUp
+    background="white"
+    className="InputError-message"
+    position="bottomLeft"
+    text="Message text"
+  />
+  <WarningIcon />
+</div>
+`;
+
+exports[`Molecule - InputError Should render with position topRightPopUp 1`] = `
+<div
+  className="InputError InputError-topRightPopUp InputError-white-icon"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <PopUp
+    background="white"
+    className="InputError-message"
+    position="bottomRight"
+    text="Message text"
+  />
+  <WarningIcon />
+</div>
+`;

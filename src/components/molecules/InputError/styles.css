@@ -1,0 +1,93 @@
+.InputError {
+	display: inline-flex;
+	align-items: center;
+	position: relative;
+	color: var(--tomatoRed);
+}
+
+.InputError-white-icon {
+	color: var(--white);
+}
+
+.InputError-red-icon {
+	color: var(--tomatoRed);
+}
+
+.InputError svg {
+	width: 30px;
+	height: 30px;
+}
+
+/* Top */
+.InputError-topLeftPopUp .InputError-message,
+.InputError-topRightPopUp .InputError-message {
+	position: absolute;
+	bottom: 45px;
+	transition: all .2s ease-in-out;
+	transform: translateY(-10px);
+	opacity: 0;
+	z-index: -1;
+}
+
+.InputError-topLeftPopUp .InputError-message {
+	left: -12px;
+}
+
+.InputError-topRightPopUp .InputError-message {
+	right: -12px;
+}
+
+/* Bottom */
+.InputError-bottomLeftPopUp .InputError-message,
+.InputError-bottomRightPopUp .InputError-message {
+	position: absolute;
+	top: 40px;
+	transition: all .2s ease-in-out;
+	transform: translateY(10px);
+	opacity: 0;
+	z-index: -1;
+}
+
+.InputError-bottomLeftPopUp .InputError-message {
+	left: -12px;
+}
+
+.InputError-bottomRightPopUp .InputError-message {
+	right: -12px;
+}
+
+/* Left Right */
+.InputError-leftPopUp .InputError-message,
+.InputError-rightPopUp .InputError-message {
+	position: absolute;
+	top: 50%;
+	transition: all .2s ease-in-out;
+	opacity: 0;
+	z-index: -1;
+}
+
+.InputError-leftPopUp .InputError-message {
+	right: 40px;
+	transform: translate(-10px, -50%);
+}
+
+.InputError-rightPopUp .InputError-message {
+	left: 40px;
+	transform: translate(10px, -50%);
+}
+
+.InputError-leftPopUp .InputError-message-shown,
+.InputError-rightPopUp .InputError-message-shown {
+	transform: translate(0, -50%);
+	opacity: 1;
+	z-index: 1;
+}
+
+.InputError-topLeftPopUp .InputError-message-shown,
+.InputError-topRightPopUp .InputError-message-shown,
+.InputError-bottomLeftPopUp .InputError-message-shown,
+.InputError-bottomRightPopUp .InputError-message-shown {
+	transform: translateY(0);
+	opacity: 1;
+	z-index: 1;
+}

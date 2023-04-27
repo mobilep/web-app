@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - TeamCard Should render 1`] = `
+<div
+  className="TeamCard listItem"
+>
+  <div
+    className="TeamCard-left-content"
+  >
+    <div
+      className="TeamCard-header"
+    >
+      Techmagic team
+    </div>
+    <AvatarGroup
+      avatars={
+        Array [
+          Object {
+            "avatarColor": "#87d4ee",
+            "firstName": "Clayton",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+            "lastName": "Gross",
+          },
+          Object {
+            "avatarColor": "#87d4ee",
+            "firstName": "Clayton",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+            "lastName": "Gross",
+          },
+          Object {
+            "avatarColor": "#87d4ee",
+            "firstName": "Clayton",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+            "lastName": "Gross",
+          },
+          Object {
+            "avatarColor": "#87d4ee",
+            "firstName": "Clayton",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+            "lastName": "Gross",
+          },
+          Object {
+            "avatarColor": "#87d4ee",
+            "firstName": "Clayton",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+            "lastName": "Gross",
+          },
+          Object {
+            "avatarColor": "#87d4ee",
+            "firstName": "Clayton",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+            "lastName": "Gross",
+          },
+        ]
+      }
+    />
+  </div>
+  <div
+    className="TeamCard-right-content"
+  >
+    <Counter
+      className="TeamCard-counter"
+    >
+      15
+    </Counter>
+  </div>
+</div>
+`;

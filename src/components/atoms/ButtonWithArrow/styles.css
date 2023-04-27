@@ -1,0 +1,31 @@
+.ButtonWithArrow {
+	font-weight: var(--normal);
+}
+
+.ButtonWithArrow span {
+	display: inline-block;
+	position: relative;
+	transition: all .3s ease-out;
+	will-change: transform;
+}
+
+.ButtonWithArrow:hover span {
+	transform: translateX(-13px);
+}
+
+.ButtonWithArrow svg {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: 0;
+	opacity: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+	transition: all .3s ease-out;
+	will-change: transform, opacity;
+}
+
+.ButtonWithArrow:hover svg {
+	opacity: 1;
+	transform: translate(26px, -50%);
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - DialogWithPlayer Should render 1`] = `
+<Dialog
+  className="DialogWithPlayer"
+  closeButton={true}
+  onClose={[Function]}
+>
+  <div
+    className="DialogWithPlayer-header"
+  >
+    Video player
+  </div>
+</Dialog>
+`;

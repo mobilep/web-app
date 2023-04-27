@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - AddVideoButton Should render 1`] = `
+<MessageBoxBaseButton
+  className="AddVideoButton"
+>
+  <VideoCameraIcon />
+</MessageBoxBaseButton>
+`;

@@ -1,0 +1,42 @@
+@import url('../../../../node_modules/dialog-polyfill/dialog-polyfill.css');
+
+dialog {
+	--small-border-radius: 5px;
+
+	border: none;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+dialog::backdrop,
+dialog + .backdrop {
+	background-color: rgba(135, 135, 135, .7);
+}
+
+.Dialog-close-button {
+	cursor: pointer;
+	width: 31px;
+	height: 31px;
+	border: none;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: none;
+	color: var(--grey3);
+}
+
+.Dialog-close-button:focus {
+	border: none;
+}
+
+@supports (backdrop-filter: blur()) or (-webkit-backdrop-filter: blur()) {
+	dialog::backdrop,
+	dialog + .backdrop {
+		background-color: rgba(135, 135, 135, .5);
+		opacity: 1;
+		backdrop-filter: blur(3px);
+	}
+}

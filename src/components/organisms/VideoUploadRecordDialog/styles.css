@@ -1,0 +1,59 @@
+.VideoUploadRecordDialog-title {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.VideoUploadRecordDialog-options {
+	display: flex;
+	margin-top: 10px;
+	flex-direction: column;
+}
+
+.VideoUploadRecordDialog-record {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.VideoUploadRecordDialog {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.VideoUploadRecordDialog-existing {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.VideoUploadRecordDialog-button {
+	margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+	.DragAndDrop-header {
+		display: block;
+		position: fixed;
+		background-color: white;
+	}
+
+	.VideoUploadRecordDialog {
+		width: 100%;
+		height: 100%;
+		padding: 15px;
+	}
+
+	button.Dialog-close-button {
+		top: 17px;
+	}
+}
+
+@media (max-width: 320px) {
+	.DragAndDrop-header {
+		display: block;
+		position: fixed;
+		height: 54px;
+		background-color: white;
+	}
+}

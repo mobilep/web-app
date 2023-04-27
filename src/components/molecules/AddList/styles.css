@@ -1,0 +1,55 @@
+.AddList {
+	position: relative;
+}
+
+.AddList-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 4px 0;
+}
+
+.AddList-removeButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	border: none;
+	color: var(--almostBlack);
+	cursor: pointer;
+	margin-right: 12px;
+}
+
+.AddList-trashIcon {
+	width: 20px;
+	height: 20px;
+}
+
+.AddList-addItem {
+	margin-top: 4px;
+}
+
+.AddList-autoComplete {
+	position: absolute;
+	left: 29px;
+	top: 100%;
+}
+
+.AddList-selectList {
+	display: none;
+}
+
+.AddList-selectList:empty {
+	display: none !important;
+}
+
+.AddList-activeHint .AddList-selectList,
+.AddList-autoComplete:hover .AddList-selectList {
+	display: block;
+}
+
+.AddList-selectList:hover:empty {
+	display: none;
+}

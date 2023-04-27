@@ -1,0 +1,9 @@
+.SuccessSubmit svg {
+	width: 60px;
+	height: 60px;
+	color: var(--blue);
+}
+
+.SuccessSubmit {
+	padding: 40px;
+}

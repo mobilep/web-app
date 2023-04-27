@@ -1,0 +1,17 @@
+.AudioPlayer {
+	width: 100%;
+}
+
+.plyr {
+	border-radius: 7px;
+	width: 100%;
+	z-index: 0;
+}
+
+.plyr .plyr__control:hover {
+	background-color: var(--tomatoRed);
+}
+
+.plyr--full-ui input[type=range] {
+	color: var(--tomatoRed) !important;
+}

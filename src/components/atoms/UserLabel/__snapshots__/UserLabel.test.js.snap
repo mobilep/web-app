@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - UserLabel Should render 1`] = `
+<div
+  className="UserLabel"
+>
+  <Avatar
+    border={false}
+    className="UserLabel-avatar"
+    img="url"
+    initials="XW"
+    size="avatar-22"
+  />
+  Xena Warrior-Princess
+</div>
+`;

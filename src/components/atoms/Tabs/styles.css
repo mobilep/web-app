@@ -1,0 +1,84 @@
+.Tabs {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.Tabs-buttonsWrapper {
+	display: flex;
+}
+
+.Tabs-button {
+	flex: 1;
+	border: 0;
+	padding: 10px;
+	background: transparent;
+	font-size: 14px;
+	line-height: 19px;
+	color: var(--grey3);
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	transition: transform .3s ease;
+}
+
+.Tabs-button-active {
+	color: var(--tomatoRed);
+}
+
+.Tabs-activeBarWrapper {
+	position: relative;
+	width: 100%;
+	height: 2px;
+	background-color: var(--transparentGrey2);
+}
+
+.Tabs-activeBar {
+	position: absolute;
+	padding: 0 15px;
+	top: 0;
+	will-change: transform;
+	height: 100%;
+	transition: transform .3s ease;
+}
+
+.Tabs-activeBarInner {
+	background-color: var(--tomatoRed);
+	height: 100%;
+}
+
+.Tabs-body {
+	overflow: hidden;
+}
+
+.Tabs-list {
+	display: flex;
+	height: 100%;
+	will-change: transform;
+	transition: transform .3s ease;
+}
+
+.Tabs-item {
+	height: 100%;
+	width: 100%;
+}
+
+.hidden {
+	visibility: hidden;
+	height: 0;
+}
+
+@media (max-width: 768px) {
+	.Tabs-activeBarInner {
+		width: 135px;
+		margin: 0 auto;
+	}
+
+	.Tabs-header {
+		background-color: var(--white);
+	}
+
+	.Tabs-item {
+		width: 100vw;
+	}
+}

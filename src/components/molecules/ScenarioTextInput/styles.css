@@ -1,0 +1,23 @@
+input.ScenarioTextInput {
+	color: var(--almostBlack);
+	width: 100%;
+	line-height: 33px;
+	border: none;
+	height: 30px;
+	padding: 0;
+	font-size: var(--mobileInputSize);
+	text-overflow: ellipsis;
+}
+
+input.ScenarioTextInput::placeholder {
+	color: var(--grey3);
+	font-size: var(--mobileInputSize);
+}
+
+input.ScenarioTextInput:hover {
+	cursor: pointer;
+}
+
+div.ScenarioTextInput-error {
+	top: 0;
+}

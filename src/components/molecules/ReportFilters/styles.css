@@ -1,0 +1,33 @@
+.ReportFilters {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.ReportFilters-filter {
+	display: flex;
+	flex-basis: 50%;
+	margin-bottom: 0;
+}
+
+.ReportFilters-filter:first-child {
+	margin-right: 20px;
+}
+
+.ReportFilters-labelText {
+	margin-right: 8px;
+}
+
+.ReportFilters-filter select {
+	flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+	.ReportFilters {
+		flex-direction: column;
+	}
+
+	.ReportFilters-filter:first-child {
+		margin-right: 0;
+	}
+}

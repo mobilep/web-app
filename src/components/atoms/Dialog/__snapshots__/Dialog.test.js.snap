@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - Dialog Should render 1`] = `
+<Dialog
+  closeButton={true}
+  onClose={[Function]}
+>
+  <dialog
+    className="Dialog-landscapeMode"
+  >
+    <button
+      className="Dialog-close-button"
+      onClick={[Function]}
+    >
+      <CloseIcon>
+        <SVGWrapper
+          color="currentColor"
+          height={31}
+          width={31}
+        >
+          <svg
+            className="svgWrapper"
+            version="1.1"
+            viewBox="0 0 31 31"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            >
+              <path
+                d="M21.333 21.333l-6.666-6.666L21.333 8"
+              />
+              <path
+                d="M8 21.333l6.667-6.666L8 8"
+              />
+            </g>
+          </svg>
+        </SVGWrapper>
+      </CloseIcon>
+    </button>
+    Dialog content
+  </dialog>
+</Dialog>
+`;

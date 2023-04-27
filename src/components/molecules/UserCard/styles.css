@@ -1,0 +1,127 @@
+.UserCard {
+	height: 71px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.UserCard-headerLeftContent {
+	min-width: 0;
+	flex-grow: 1;
+	margin-right: 10px;
+}
+
+.UserCard-right-content {
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+	justify-content: center;
+}
+
+.UserCard:hover,
+.UserCard-active {
+	cursor: default;
+}
+
+.UserCard-content {
+	display: flex;
+	flex-direction: column;
+	width: calc(100% - 59px);
+	margin-left: 10px;
+}
+
+.UserCard-header {
+	display: flex;
+	font-size: 14px;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.UserCard-message {
+	font-size: 12px;
+	width: 80%;
+	margin-top: 4px;
+	color: var(--grey3);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.UserCard-message .MultilineEllipsis {
+	max-width: 95%;
+}
+
+.UserCard-person {
+	font-size: 16px;
+	color: var(--almostBlack);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.UserCard-active .UserCard-person {
+	font-weight: 700;
+}
+
+.UserCard-date {
+	color: var(--grey3);
+	font-size: 12px;
+}
+
+.UserCard-date-unread {
+	color: var(--tomatoRed);
+}
+
+.UserCard-evaluation-icon {
+	width: 15px;
+	height: 16px;
+	position: absolute;
+	color: var(--grey3);
+	right: 20px;
+	margin-top: 22px;
+}
+
+.UserCard-evaluation-mark {
+	position: absolute;
+	display: inline-block;
+	font-size: 12px;
+	right: 40px;
+	color: var(--grey3);
+	margin-top: 22px;
+}
+
+.UserCard-practice {
+	height: 78px;
+}
+
+.UserCard-scenario {
+	font-size: 9px;
+	color: var(--grey3);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 80%;
+}
+
+.UserCard-practice-header {
+	margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+	.UserCard-header {
+		font-size: 16px;
+	}
+
+	.UserCard-message {
+		font-size: 14px;
+		width: 70%;
+	}
+
+	.UserCard-evaluation-icon {
+		margin-top: 28px;
+	}
+
+	.UserCard-evaluation-mark {
+		margin-top: 28px;
+	}
+}

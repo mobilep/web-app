@@ -1,0 +1,48 @@
+.EvaluationRange {
+	border-radius: 18px;
+	box-shadow: 0 0 25px rgba(0, 0, 0, .15);
+	display: flex;
+	padding: 0 5px;
+}
+
+.EvaluationRange-evaluation {
+	position: relative;
+	flex: 0 0 58px;
+}
+
+.EvaluationRange-evaluation input {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+}
+
+.EvaluationRange-evaluation input + label {
+	width: 100%;
+	border-radius: 18px;
+	cursor: pointer;
+	margin: 0;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.EvaluationRange-evaluation input:checked + label {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 70px;
+	height: 100%;
+	transform: translateX(-50%);
+	background-color: var(--tomatoRed);
+	color: white;
+}
+
+.EvaluationRange-evaluation input:focus + label {
+	outline: 5px auto -webkit-focus-ring-color;
+}
+
+@media (max-width: 345px) {
+	.EvaluationRange-evaluation {
+		flex: 0 0 48px;
+	}
+}

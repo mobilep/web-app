@@ -1,0 +1,83 @@
+.MessageBox {
+	border-top: 1px solid var(--grey8);
+	margin-top: 5px;
+	padding: 20px 30px;
+}
+
+.MessageBox-boxWrapper {
+	border-radius: 100px;
+	border: 1px solid var(--grey2);
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+
+.MessageBox-mainArea {
+	flex-grow: 1;
+	display: flex;
+}
+
+.MessageBox-textArea {
+	resize: none;
+	padding: 14px;
+	border: none;
+	width: 100%;
+	height: 49px;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--almostBlack);
+}
+
+.MessageBox-textArea::-webkit-input-placeholder {
+	color: var(--grey3);
+	font-size: var(--mobileInputSize);
+	line-height: 20px;
+}
+
+.MessageBox-controlArea {
+	display: flex;
+}
+
+.PopUp.MessageBox-popUp {
+	position: absolute;
+	bottom: calc(100% + 9px);
+	right: 100px;
+	width: 208px;
+}
+
+.MessageBox-audioRecording {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	background-color: var(--white);
+	z-index: 1;
+	padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+	.MessageBox {
+		padding: 0 15px 10px;
+		border: none;
+	}
+
+	.MessageBox-boxWrapper {
+		flex-direction: column;
+		border: none;
+		border-radius: 0;
+	}
+
+	.MessageBox-mainArea {
+		margin-bottom: 10px;
+	}
+
+	.MessageBox-textArea {
+		border: 1px solid var(--grey2);
+		border-radius: 5px;
+		font-size: var(--mobileInputSize);
+	}
+
+	.MessageBox-sendButton {
+		margin-left: auto;
+	}
+}

@@ -1,0 +1,32 @@
+export const usersProp = [
+	{
+		_id: '5d4bfe2095a0842e643c2453',
+		avgScore: 4.7,
+		firstName: 'Alexa',
+		lastName: 'Five',
+		avatar_sm: 'https://s3-eu-west-1.amazonaws.com/mobilepractice-photo/public/100/533567e7-c1f2-4751-8e7b-9dd55c71305e.jpg',
+		avatarColor: '6c6ced',
+		name: 'Alexa Five',
+		initials: 'AF',
+	},
+	{
+		_id: '5d4bfe2095a0842e613c2453',
+		avgScore: 4.2,
+		firstName: 'Lucie',
+		lastName: 'Three',
+		avatar_sm: 'https://s3-eu-west-1.amazonaws.com/mobilepractice-photo/public/100/197be587-5467-4265-94a0-3235e3c89adc.jpg',
+		avatarColor: '6c6ced',
+		name: 'Lucie Three',
+		initials: 'LT',
+	},
+	{
+		_id: '5d4bfe2095a0842e643c2453',
+		avgScore: 3.7,
+		firstName: 'Alexandr',
+		lastName: 'Ten',
+		avatar_sm: 'https://s3-eu-west-1.amazonaws.com/mobilepractice-photo/public/100/00200633-34b2-416a-91ce-d3a483497382.jpg',
+		avatarColor: '6c6ced',
+		name: 'Alexandr Ten',
+		initials: 'AT',
+	},
+];

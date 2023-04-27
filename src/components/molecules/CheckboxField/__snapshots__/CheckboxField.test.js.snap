@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - CheckboxField Should render CheckboxField component 1`] = `
+<label
+  className="CheckboxField"
+>
+  <input
+    type="checkbox"
+  />
+  <span
+    className="CheckboxField-checkmark"
+  >
+    <CheckIcon />
+  </span>
+</label>
+`;

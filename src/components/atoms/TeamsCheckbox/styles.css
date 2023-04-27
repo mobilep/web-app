@@ -1,0 +1,39 @@
+.TeamsCheckbox {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.TeamsCheckbox input {
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 22px;
+	width: 22px;
+}
+
+.TeamsCheckbox-checkmark {
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	color: transparent;
+	border: 1px solid var(--almostBlack);
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+.TeamsCheckbox-checkmark .svgWrapper {
+	max-width: 24px;
+}
+
+.TeamsCheckbox input:checked ~ .TeamsCheckbox-checkmark {
+	background-color: var(--tomatoRed);
+	color: white;
+	border: none;
+}
+
+.Teamscheckbox-name {
+	margin-left: 10px;
+}

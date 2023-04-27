@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - PrimaryNavigation Should render 1`] = `
+<div
+  className="PrimaryNavigation"
+>
+  <div
+    className="PrimaryNavigation-logo"
+  >
+    <LogoIcon />
+  </div>
+  <nav
+    className="PrimaryNavigation-nav"
+  >
+    <PrimaryNavigationItem
+      to="/scenarios"
+    >
+      <IconWithCounter
+        icon={<ScenariousIcon />}
+      />
+      <span>
+        SCENARIOS
+      </span>
+    </PrimaryNavigationItem>
+    <PrimaryNavigationItem
+      to="/inbox"
+    >
+      <IconWithCounter
+        counter={4}
+        icon={<InboxIcon />}
+      />
+      <span>
+        MESSAGES
+      </span>
+    </PrimaryNavigationItem>
+    <PrimaryNavigationItem
+      to="/groups"
+    >
+      <TeamIcon />
+      <span>
+        TEAMS
+      </span>
+    </PrimaryNavigationItem>
+    <PrimaryNavigationItem
+      isActive={[Function]}
+      to="/profile/learner-report"
+    >
+      <ProfileIcon />
+      <span>
+        PROFILE
+      </span>
+    </PrimaryNavigationItem>
+    <PrimaryNavigationItem
+      to="/settings"
+    >
+      <SettingsIcon />
+      <span>
+        SETTINGS
+      </span>
+    </PrimaryNavigationItem>
+  </nav>
+  <div
+    className="PrimaryNavigation-logOut"
+  >
+    <PrimaryNavigationItem
+      onClick={[Function]}
+    >
+      <LogOutIcon />
+      <span>
+        SIGN OUT
+      </span>
+    </PrimaryNavigationItem>
+  </div>
+  <DialogWithButtonGroup
+    actionButtonLabel="Sign out"
+    cancelButtonLabel="Cancel"
+    onActionButtonClick={[Function]}
+    onCancelButtonClick={[Function]}
+  >
+    Are you sure you want to sign out?
+  </DialogWithButtonGroup>
+</div>
+`;

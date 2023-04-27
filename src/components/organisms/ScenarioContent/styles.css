@@ -1,0 +1,103 @@
+.Scenarios-content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.Scenarios-body {
+	overflow-y: auto;
+	padding-right: 10px;
+}
+
+.Scenarios-sectionsBlock {
+	display: grid;
+	grid-template-areas:
+		'steps'
+		'bestPractice'
+		'criterias'
+		'dueDate'
+		'people'
+		'peopleDropdown';
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto auto 1fr;
+}
+
+.Scenarios-steps {
+	grid-area: steps;
+	margin-right: 45px;
+}
+
+.Scenarios-criterias {
+	grid-area: criterias;
+	margin-right: 45px;
+	margin-top: 90px;
+}
+
+.Scenarios-bestPractice {
+	grid-area: bestPractice;
+	margin-right: 45px;
+	margin-top: 90px;
+}
+
+.Scenarios-people {
+	grid-area: people;
+	margin-left: 45px;
+}
+
+.Scenarios-peopleDropdown {
+	grid-area: peopleDropdown;
+	position: relative;
+	margin-left: 45px;
+	margin-top: 90px;
+}
+
+.Scenarios-dueDate {
+	grid-area: dueDate;
+}
+
+.Scenarios-sectionExample {
+	color: var(--grey3);
+	font-size: 14px;
+	padding-left: 36px;
+}
+
+@supports (display: grid) {
+	.Scenarios-sectionsBlock > * {
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 1500px) {
+	.Scenarios-sectionsBlock {
+		display: grid;
+		grid-template-rows: auto auto auto 1fr;
+	}
+}
+
+@media (max-width: 1500px) {
+	.Scenarios-sectionsBlock {
+		grid-template-rows: auto;
+	}
+
+	.Scenarios-people {
+		margin-left: 0;
+	}
+
+	.Scenarios-sectionsBlock > div {
+		width: 100%;
+		max-width: unset;
+	}
+}
+
+@media (max-width: 768px) {
+	.Scenarios-content {
+		overflow-y: unset;
+	}
+
+	.Scenarios-body {
+		overflow-y: unset;
+		padding-right: 0;
+	}
+}

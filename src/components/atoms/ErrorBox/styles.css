@@ -1,0 +1,17 @@
+.ErrorBox {
+	align-items: center;
+	background: var(--white);
+	border-radius: 5px;
+	color: var(--tomatoRed);
+	display: flex;
+	font-size: 14px;
+	padding: 10px;
+}
+
+.ErrorBox-withIcon {
+	padding-left: 15px;
+}
+
+.ErrorBox-withIcon .ErrorBox-message {
+	margin-left: 10px;
+}

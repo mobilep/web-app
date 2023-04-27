@@ -1,0 +1,52 @@
+.Reports {
+	width: 100%;
+
+	--tabsBorderHeight: 4px;
+}
+
+.Reports-TabsHeader {
+	background-color: var(--grey1);
+	border-bottom: var(--tabsBorderHeight) solid var(--grey6);
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.Reports-TabsButton {
+	border-bottom: var(--tabsBorderHeight) solid transparent;
+	bottom: calc(var(--tabsBorderHeight) * -1);
+	color: var(--grey3);
+	font-size: var(--fontSizeLg);
+	font-weight: 700;
+	padding-bottom: 2px;
+	position: relative;
+	text-align: center;
+	transition: color var(--transitionSpeed), border-color var(--transitionSpeed);
+	width: 200px;
+}
+
+.Reports-TabsButton:not(:last-child) {
+	margin-right: 50px;
+}
+
+.Reports-TabsButton:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+.Reports-TabsButton.Reports-TabsButtonActive,
+.Reports-TabsButton.Reports-TabsButtonActive:hover {
+	border-bottom-color: var(--tomatoRed);
+	color: var(--black);
+}
+
+@media (max-width: 768px) {
+	.Reports-TabsHeader {
+		justify-content: space-evenly;
+	}
+
+	.Reports-TabsButton {
+		font-size: var(--fontSizeMd);
+		width: auto;
+	}
+}

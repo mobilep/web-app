@@ -1,0 +1,17 @@
+.ChatParticipantCheckbox {
+	padding: 10px 0;
+}
+
+.ChatParticipantCheckbox-avatar {
+	margin-right: 10px;
+	flex-shrink: 0;
+}
+
+.ChatParticipantCheckbox-name {
+	margin-right: auto;
+}
+
+.ChatParticipantCheckbox .CheckboxField-checkmark {
+	flex-shrink: 0;
+	margin-left: 5px;
+}

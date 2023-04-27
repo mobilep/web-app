@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - EvaluateDialog Should render 1`] = `
+<div
+  className="EvaluateDialog"
+>
+  <div
+    className="EvaluateDialog--avatar"
+  >
+    <Avatar
+      border={false}
+      initials="AL"
+      size="avatar-80"
+    />
+  </div>
+  <div
+    className="EvaluateDialog-header"
+  >
+    The evaluation of scenario "Skills"
+  </div>
+  <div
+    className="EvaluateDialog-paragraph"
+  >
+    1- not at all, 5- absolutely
+  </div>
+  <div
+    className="EvaluateDialog-range"
+  >
+    <Form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div
+        className="EvaluateDialog-row"
+        key="1"
+      >
+        <div
+          className="EvaluateDialog-rangeTitle"
+        >
+          Contact’s attention grabbed
+        </div>
+        <EvaluationRange
+          end={5}
+          name="1"
+          onChange={[Function]}
+          required={true}
+          start={1}
+          value={3}
+        />
+      </div>
+      <div
+        className="EvaluateDialog-row"
+        key="2"
+      >
+        <div
+          className="EvaluateDialog-rangeTitle"
+        >
+          Self Introduction
+        </div>
+        <EvaluationRange
+          end={5}
+          name="2"
+          onChange={[Function]}
+          required={true}
+          start={1}
+          value={3}
+        />
+      </div>
+      <div
+        className="EvaluateDialog-row"
+        key="3"
+      >
+        <div
+          className="EvaluateDialog-rangeTitle"
+        >
+          Purpose of call stated
+        </div>
+        <EvaluationRange
+          end={5}
+          name="3"
+          onChange={[Function]}
+          required={true}
+          start={1}
+          value={3}
+        />
+      </div>
+      <div
+        className="EvaluateDialog-row"
+      >
+        <Button
+          color="grey"
+          onClick={[Function]}
+          primary={true}
+        >
+          Cancel
+        </Button>
+        <Component
+          color="red"
+        >
+          Send
+        </Component>
+      </div>
+    </Form>
+  </div>
+</div>
+`;

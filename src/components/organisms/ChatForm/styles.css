@@ -1,0 +1,64 @@
+.ChatForm {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.ChatForm-selectedUsers {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.ChatForm-selectedUsers .Chip {
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.ChatForm-selectedUsers .Chip .Avatar {
+	margin-right: 5px;
+	margin-left: -5px;
+}
+
+.ChatForm-listWrapper {
+	max-height: 100%;
+	overflow-y: auto;
+	padding: 0 0 0 30px;
+}
+
+.ChatForm-sectionTitle {
+	border-bottom: var(--lightBorder);
+	color: var(--grey7);
+	padding-bottom: 10px;
+}
+
+.ChatForm-searchBox,
+.ChatForm-groupName {
+	margin: 0 20px 20px 30px;
+}
+
+.ChatForm-selectedUsers,
+.ChatForm-allUsers {
+	margin-bottom: 20px;
+}
+
+.ChatForm-checkItem {
+	border-bottom: var(--lightBorder);
+	margin: 0;
+}
+
+@media (max-width: 768px) {
+	.ChatForm-listWrapper {
+		padding: 0 10px;
+	}
+
+	.ChatForm-searchBox,
+	.ChatForm-groupName {
+		margin: 0 10px 10px 10px;
+	}
+
+	.ChatForm-selectedUsers,
+	.ChatForm-allUsers {
+		margin-bottom: 10px;
+	}
+}

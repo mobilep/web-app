@@ -1,0 +1,11 @@
+.ViewDetailsLink {
+	background: transparent;
+	text-align: center;
+	color: currentColor;
+	border-color: currentColor;
+}
+
+.ViewDetailsLink:hover {
+	color: currentColor;
+	border-color: currentColor;
+}

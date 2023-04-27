@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - UserSelectList Should render 1`] = `
+<div
+  className="UserSelectList"
+  style={Object {}}
+>
+  <button
+    className="UserSelectList-item"
+    key="selectItem0"
+    onClick={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    <UserLabel
+      className="UserSelectList-userLabel"
+      fullName="Rebele John"
+      initials="JR"
+    />
+  </button>
+  <button
+    className="UserSelectList-item"
+    key="selectItem1"
+    onClick={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    <UserLabel
+      className="UserSelectList-userLabel"
+      fullName="Кlokdam John"
+      initials="JK"
+    />
+  </button>
+  <button
+    className="UserSelectList-item"
+    key="selectItem2"
+    onClick={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    <UserLabel
+      className="UserSelectList-userLabel"
+      fullName="Makeba John"
+      initials="JM"
+    />
+  </button>
+</div>
+`;

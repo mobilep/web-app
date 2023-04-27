@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - SuccessSubmit Should render 1`] = `
+<SubmitResult
+  buttonLabel="Buttton label"
+  className="SuccessSubmit"
+  icon={<SuccessIcon />}
+  message="Message"
+  onButtonClick={[Function]}
+  title="Title"
+/>
+`;

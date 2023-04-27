@@ -1,0 +1,36 @@
+.App {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.App-content {
+	height: calc(100vh - var(--primary-navigation-height-desktop));
+}
+
+@media (max-width: 768px) {
+	.App {
+		flex-direction: column-reverse;
+	}
+
+	.App-nav {
+		width: 100%;
+		height: calc(var(--primary-navigation-height-mobile) + env(safe-area-inset-bottom));
+		padding-bottom: env(safe-area-inset-bottom, 0);
+		flex-shrink: 0;
+	}
+
+	.App-content {
+		width: auto;
+		padding-top: env(safe-area-inset-top, 0);
+		display: flex;
+		flex-grow: 1;
+		flex-direction: column;
+		min-height: 0;
+	}
+
+	.App-navMobileHidden {
+		display: none;
+	}
+}

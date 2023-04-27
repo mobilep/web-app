@@ -1,0 +1,56 @@
+.CoachPracticeChats {
+	max-height: 100%;
+	overflow-y: auto;
+}
+
+.CoachPracticeChats-reminderBanner {
+	margin: 10px 20px 20px 30px;
+}
+
+.CoachPracticeChats-metaInfo {
+	margin: 0 20px 20px 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.CoachPracticeChats-group:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.CoachPracticeChats-groupTitle {
+	border-bottom: var(--lightBorder);
+	color: var(--grey7);
+	font-size: 14px;
+	padding-bottom: 8px;
+	margin: 0 0 8px 30px;
+}
+
+.CoachPracticeChats-group .Avatar {
+	width: 48px;
+	height: 48px;
+	font-size: calc(48px / 2.5);
+}
+
+.CoachPracticeChats-group .UserCard-content {
+	width: calc(100% - 73px);
+}
+
+@media (max-width: 768px) {
+	.CoachPracticeChats-reminderBanner {
+		margin: 10px 10px 10px 10px;
+	}
+
+	.CoachPracticeChats-metaInfo {
+		margin: 0 10px 10px 10px;
+	}
+
+	.CoachPracticeChats-groupTitle {
+		margin: 0 0 8px 10px;
+	}
+
+	.CoachPracticeChats-group .UserCard-content {
+		width: calc(100% - 65px);
+	}
+}

@@ -1,0 +1,12 @@
+.AudioRecording {
+	display: flex;
+	align-items: center;
+}
+
+.AudioRecording-time {
+	margin-right: 20px;
+}
+
+.AudioRecording-cancelBtn {
+	margin-right: auto;
+}

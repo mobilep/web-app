@@ -1,0 +1,23 @@
+.ScenarioPeopleSection-tabContent {
+	position: relative;
+	padding-top: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	max-height: 500px;
+}
+
+.ScenarioPeopleSectiono-UserCardList {
+	max-height: 500px;
+	overflow-y: auto;
+}
+
+.ScenarioPeopleSection-userChips {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ScenarioPeopleSection .ScenarioPeopleSection-userChips > * {
+	margin-right: 10px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,37 @@
+.DragAndDrop-header {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 64px;
+	border-bottom: 1px solid var(--grey2);
+	text-align: center;
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--almostBlack);
+	padding-top: 21px;
+	font-weight: var(--semiBold);
+}
+
+.DragAndDropDialog {
+	max-height: 100%;
+	height: 600px;
+	width: 570px;
+	padding: 10px 45px;
+}
+
+@media (max-width: 768px) {
+	.DragAndDrop-header {
+		display: block;
+	}
+
+	.DragAndDropDialog {
+		width: 100%;
+		height: 100%;
+	}
+
+	button.Dialog-close-button {
+		top: 17px;
+	}
+}

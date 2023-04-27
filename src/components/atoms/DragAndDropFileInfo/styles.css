@@ -1,0 +1,10 @@
+.DragAndDropFileInfo {
+	font-size: 14px;
+	color: var(--almostBlack);
+	font-weight: var(--normal);
+	line-height: 19px;
+}
+
+.DragAndDropFileInfo span {
+	color: var(--tomatoRed);
+}

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - VideoTile Should render with type add 1`] = `
+<div
+  className="VideoTile"
+  style={
+    Object {
+      "backgroundImage": null,
+    }
+  }
+>
+  <Button
+    className="VideoTile-spinnerButton"
+  >
+    <Spinner
+      className="VideoTile-spinnerIcon"
+    />
+  </Button>
+</div>
+`;
+
+exports[`Atom - VideoTile Should render with type default 1`] = `
+<div
+  className="VideoTile"
+  style={
+    Object {
+      "backgroundImage": null,
+    }
+  }
+>
+  <Button
+    className="VideoTile-spinnerButton"
+  >
+    <Spinner
+      className="VideoTile-spinnerIcon"
+    />
+  </Button>
+</div>
+`;
+
+exports[`Atom - VideoTile Should render with type uploading 1`] = `
+<div
+  className="VideoTile"
+  style={
+    Object {
+      "backgroundImage": null,
+    }
+  }
+>
+  <Button
+    className="VideoTile-spinnerButton"
+  >
+    <Spinner
+      className="VideoTile-spinnerIcon"
+    />
+  </Button>
+</div>
+`;

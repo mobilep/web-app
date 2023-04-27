@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - FormErrorBox Should render 1`] = `
+<ErrorBox
+  icon={<WarningIcon />}
+  message="Message"
+/>
+`;

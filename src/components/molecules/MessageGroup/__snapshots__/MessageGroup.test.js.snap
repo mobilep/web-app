@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - MessageGroup Should render 1`] = `
+<div
+  className="MessageGroup"
+>
+  <Avatar
+    border={false}
+    color="#undefined"
+    initials="KM"
+    size="avatar-28"
+  />
+  <div
+    className="MessageGroup-content"
+  >
+    <div
+      className="MessageGroup-messages"
+    >
+      <Message
+        className="MessageGroup-message"
+        message={
+          Object {
+            "content": "Here’s my first good attempt. Let me know what you think.Good start. Please re-record, remember to slow down at the beginning and focus on customer needs even more",
+            "messageId": "key11",
+            "time": "1525653351987",
+            "timeString": "King, 00:35",
+            "type": "text",
+            "user": "592b3b608cd6291923e74ac2",
+          }
+        }
+        onContextMenu={[Function]}
+        onVideoMessageCancelUpload={[Function]}
+        onVideoMessagePlay={[Function]}
+        singleOrLast={false}
+        viewDetailsText="View details"
+      />
+      <Message
+        className="MessageGroup-message"
+        message={
+          Object {
+            "content": Object {
+              "id": "123",
+              "thumbnailUrl": "http://via.placeholder.com/350x150/00423b?text=video%20message",
+            },
+            "messageId": "key12",
+            "time": "1525653371987",
+            "timeString": "King, 00:36",
+            "type": "video",
+            "user": "592b3b608cd6291923e74ac2",
+          }
+        }
+        onContextMenu={[Function]}
+        onVideoMessageCancelUpload={[Function]}
+        onVideoMessagePlay={[Function]}
+        singleOrLast={false}
+        viewDetailsText="View details"
+      />
+      <Message
+        className="MessageGroup-message"
+        message={
+          Object {
+            "content": "Here’s my first good attempt. Let me know what you think.",
+            "messageId": "key13",
+            "time": "1525675351987",
+            "timeString": "King, 06:42",
+            "type": "text",
+            "user": "592b3b608cd6291923e74ac2",
+          }
+        }
+        onContextMenu={[Function]}
+        onVideoMessageCancelUpload={[Function]}
+        onVideoMessagePlay={[Function]}
+        singleOrLast={false}
+        viewDetailsText="View details"
+      />
+      <Message
+        className="MessageGroup-message"
+        message={
+          Object {
+            "content": Object {
+              "avgMark": "4.3",
+              "text": "Here’s my first good attempt. Let me know what you think, please !",
+            },
+            "messageId": "key14",
+            "time": "1525854790993",
+            "timeString": "King, 08:33",
+            "type": "evaluation",
+            "user": "592b3b608cd6291923e74ac2",
+          }
+        }
+        onContextMenu={[Function]}
+        onVideoMessageCancelUpload={[Function]}
+        onVideoMessagePlay={[Function]}
+        singleOrLast={true}
+        viewDetailsText="View details"
+      />
+    </div>
+  </div>
+</div>
+`;

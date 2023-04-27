@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - ScenarioUserCounter Should render 1`] = `
+<div
+  className="ScenarioUserCounter undefined"
+>
+  <TeamIcon />
+  <div
+    className="ScenarioUserCounter-text"
+  >
+    5
+     
+    Text
+  </div>
+</div>
+`;

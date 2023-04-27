@@ -1,0 +1,54 @@
+.GroupChatHeader.Conversation-header {
+	display: block;
+	height: auto;
+	min-width: 0;
+}
+
+.GroupChatHeader-meta {
+	align-items: center;
+	border-bottom: var(--lightBorder);
+	display: flex;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.GroupChatHeader-label {
+	color: var(--grey7);
+	font-size: 14px;
+}
+
+.GroupChatHeader-deleteBtn {
+	margin-left: auto;
+}
+
+.GroupChatHeader-title {
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.GroupChatHeader-manage {
+	font-size: 14px;
+	color: var(--grey7);
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.GroupChatHeader.Conversation-header {
+		padding: 0 0 20px 0;
+	}
+
+	.GroupChatHeader-meta {
+		display: none;
+	}
+
+	.GroupChatHeader-title {
+		max-width: 350px;
+	}
+}
+
+@media (max-width: 320px) {
+	.GroupChatHeader-title {
+		max-width: 300px;
+	}
+}

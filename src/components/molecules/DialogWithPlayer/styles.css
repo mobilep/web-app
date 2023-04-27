@@ -1,0 +1,47 @@
+.DialogWithPlayer {
+	height: 42vw;
+	max-height: 550px;
+	padding-top: 45px;
+	width: 70vw;
+	max-width: 918px;
+}
+
+.DialogWithPlayer-header {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 64px;
+	border-bottom: 1px solid var(--grey2);
+	text-align: center;
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--almostBlack);
+	padding-top: 21px;
+	font-weight: var(--semiBold);
+	z-index: -1;
+}
+
+.DialogWithPlayer-playerBase {
+	height: 100%;
+}
+
+@media (max-width: 768px) {
+	.DialogWithPlayer-header {
+		display: block;
+	}
+
+	.DialogWithPlayer {
+		width: 100%;
+		max-width: unset;
+		height: 100%;
+		max-height: unset;
+		padding: 0;
+		padding-top: 65px;
+	}
+
+	button.Dialog-close-button {
+		top: 17px;
+	}
+}

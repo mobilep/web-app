@@ -1,0 +1,94 @@
+.DragAndDrop {
+	max-width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 90%;
+}
+
+.DragAndDrop-main {
+	border: dashed 3px var(--grey2);
+	margin: 80px 0 10px 0;
+}
+
+.DragAndDrop-input {
+	display: none;
+}
+
+.DragAndDrop-error {
+	min-height: auto;
+}
+
+.DragAndDrop-error svg {
+	color: var(--tomatoRed);
+	width: 60px;
+	height: 60px;
+	margin-bottom: 40px;
+}
+
+.DragAndDrop-error .SubmitResult-title {
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: var(--normal);
+	color: var(--black2);
+	margin-bottom: 10px;
+}
+
+.SubmitResult-message {
+	margin-bottom: 30px;
+}
+
+.DragAndDrop-error .Button {
+	width: 150px;
+	height: 36px;
+	padding: 0;
+	line-height: 34px;
+	font-size: 16px;
+	font-weight: var(--normal);
+	color: var(--white);
+}
+
+.DragAndDrop-fileList {
+	padding-top: 20px;
+}
+
+.DragAndDrop-btnRow {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.DragAndDrop-btnRow button {
+	margin: 0 10px;
+}
+
+.DragAndDrop-fileArea {
+	padding-top: 20px;
+}
+
+.DragAndDropDescriptionInfo {
+	padding: 20px 0;
+	font-size: 14px;
+	color: var(--almostBlack);
+	font-weight: var(--normal);
+	line-height: 19px;
+}
+
+.DragAndDrop .DragAndDrop-inputWrapper {
+	margin-top: 10px;
+	width: 90%;
+}
+
+.DragAndDrop-bestPracticeNote {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+@media (max-width: 768px) {
+	.DragAndDrop-btnRow {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.DragAndDrop-btnRow button {
+		margin-bottom: 10px;
+	}
+}

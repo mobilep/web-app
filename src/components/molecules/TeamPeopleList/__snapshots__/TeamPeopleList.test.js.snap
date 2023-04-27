@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - TeamPeopleList Should render default 1`] = `
+<div
+  className="TeamPeopleList"
+>
+  <TeamsCheckbox
+    avatar={null}
+    avatarBgColor="3cd861"
+    avatarInitials="CA"
+    className="TeamPeopleList-item"
+    id="5b39e8425d7f59044c6759a3"
+    key="pl-0"
+    name="Cassidy Abshire"
+  />
+  <TeamsCheckbox
+    avatar={null}
+    avatarBgColor="6c6ced"
+    avatarInitials="KV"
+    className="TeamPeopleList-item"
+    id="5aeafe9474f12e687e2c8a76"
+    key="pl-1"
+    name="Kate Vuilova"
+  />
+</div>
+`;
+
+exports[`Molecule - TeamPeopleList Should render edit mode 1`] = `
+<div
+  className="TeamPeopleList"
+>
+  <TeamsCheckbox
+    avatar={null}
+    avatarBgColor="3cd861"
+    avatarInitials="CA"
+    className="TeamPeopleList-item"
+    id="5b39e8425d7f59044c6759a3"
+    key="pl-0"
+    name="Cassidy Abshire"
+  />
+  <TeamsCheckbox
+    avatar={null}
+    avatarBgColor="6c6ced"
+    avatarInitials="KV"
+    className="TeamPeopleList-item"
+    id="5aeafe9474f12e687e2c8a76"
+    key="pl-1"
+    name="Kate Vuilova"
+  />
+</div>
+`;

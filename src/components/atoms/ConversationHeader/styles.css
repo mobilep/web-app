@@ -1,0 +1,58 @@
+.ConversationHeader {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.ConversationHeader-user {
+	color: var(--grey3);
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.ConversationHeader-user span {
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--almostBlack);
+}
+
+.ConversationHeader-user p {
+	margin-bottom: 0;
+	font-size: 12px;
+}
+
+.ConversationHeader-avatar {
+	width: 40px;
+	height: 40px;
+}
+
+.ConversationHeader-avatar + .ConversationHeader-user-name {
+	margin-left: 20px;
+}
+
+.ConversationHeader-evaluate {
+	flex-grow: 10;
+}
+
+.ConversationHeader-evaluate > button {
+	margin: 0 5px;
+}
+
+.ConversationHeader-user-right {
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 840px) {
+	.ConversationHeader-user .Avatar {
+		display: none;
+	}
+}
+
+@media (max-width: 1140px) {
+	.ConversationHeader-user-name-secondary {
+		display: none;
+	}
+}

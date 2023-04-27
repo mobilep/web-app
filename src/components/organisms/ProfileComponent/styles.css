@@ -1,0 +1,24 @@
+.ProfileComponent {
+	width: 100%;
+}
+
+.ProfileComponent-wrapper {
+	width: 100%;
+}
+
+.ProfileComponent-header {
+	flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+	.ProfileComponent-mobile-header {
+		justify-content: center;
+		min-height: 64px;
+	}
+
+	.ProfileComponent-menu {
+		position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+}

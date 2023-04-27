@@ -1,0 +1,22 @@
+.SliderDots {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.SlideDots-item {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid var(--grey3);
+	transition: all .3s;
+}
+
+.SlideDots-item + .SlideDots-item {
+	margin-left: 10px;
+}
+
+.SlideDots-itemActive {
+	border-color: var(--radicalRed);
+	background-color: var(--radicalRed);
+}

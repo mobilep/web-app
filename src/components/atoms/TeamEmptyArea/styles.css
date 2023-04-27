@@ -1,0 +1,22 @@
+.TeamEmptyArea {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.TeamEmptyArea svg {
+	width: 276px;
+	height: 202px;
+}
+
+.TeamEmptyArea-icon {
+	color: var(--grey5);
+}
+
+.TeamEmptyArea-text {
+	color: var(--grey3);
+	width: 245px;
+	text-align: center;
+}

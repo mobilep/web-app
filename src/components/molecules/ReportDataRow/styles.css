@@ -1,0 +1,76 @@
+.ReportDataRow-linkWrapper,
+.ReportDataRow-linkWrapper:hover {
+	text-decoration: none;
+	color: var(--black);
+}
+
+.ReportDataRow {
+	position: relative;
+	padding: 0 0 16px 0;
+	color: var(--black);
+}
+
+.ReportDataRow + .ReportDataRow {
+	border-top: 1px solid var(--grey2);
+	padding-top: 16px;
+}
+
+.ReportDataRow-wrapper {
+	margin-bottom: 12px;
+	padding-right: 20px;
+}
+
+.ReportDataRow-linkIndicator {
+	position: absolute;
+	right: 0;
+	top: 16px;
+	width: 18px;
+	height: 18px;
+	color: var(--grey4);
+}
+
+.ReportDataRow-title {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.ReportDataRow[data-size='sm'] .ReportDataRow-title {
+	font-size: var(--fontSizeMd);
+}
+
+.ReportDataRow-description {
+	color: var(--grey3);
+	font-size: var(--baseFontSize);
+}
+
+.ReportDataRow-values {
+	display: flex;
+	justify-content: center;
+}
+
+.ReportDataRow-values > *:first-child:not(:only-child) {
+	margin-right: 100px;
+}
+
+@media (max-width: 768px) {
+	.ReportDataRow-title {
+		font-size: var(--fontSizeMd);
+	}
+
+	.ReportDataRow[data-size='sm'] .ReportDataRow-title {
+		font-size: var(--baseFontSize);
+	}
+
+	.ReportDataRow-values > *:first-child:not(:only-child) {
+		margin-right: 70px;
+	}
+
+	.ReportDataRow-values[data-mobile-dir='column'] {
+		flex-direction: column;
+	}
+
+	.ReportDataRow-values[data-mobile-dir='column'] > *:first-child {
+		margin-bottom: 8px;
+		margin-right: 0;
+	}
+}

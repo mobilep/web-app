@@ -1,0 +1,28 @@
+.AvatarGroup {
+	display: flex;
+	flex-wrap: wrap;
+	max-height: 100px;
+	overflow-y: auto;
+}
+
+.AvatarGroup-item {
+	border: 1px solid white;
+}
+
+.AvatarGroup-item + .AvatarGroup-item {
+	margin-left: -6px;
+}
+
+.AvatarGroup-more {
+	background-color: var(--grey4);
+}
+
+.AvatarGroup-chip {
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.AvatarGroup-chip .Avatar {
+	margin-right: 5px;
+	margin-left: -5px;
+}

@@ -1,0 +1,55 @@
+.MessageBoxMediaPreview {
+	position: relative;
+	border: 1px solid var(--grey2);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.MessageBoxMediaPreview-Content {
+	display: flex;
+	align-items: center;
+}
+
+.MessageBoxMediaPreview-imgWrapper {
+	margin-right: 10px;
+}
+
+.MessageBoxMediaPreview-img,
+.MessageBoxMediaPreview-video {
+	border-radius: 6px;
+	height: 100px;
+	max-width: 175px;
+}
+
+.MessageBoxMediaPreview-video {
+	width: 175px;
+}
+
+.MessageBoxMediaPreview-name {
+	margin-right: auto;
+	word-break: break-all;
+}
+
+.MessageBoxMediaPreview-uploadProgress {
+	align-items: center;
+	background-color: var(--transparentWhite3);
+	display: flex;
+	height: 100%;
+	left: 0;
+	padding: 10px;
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+}
+
+.MessageBoxMediaPreview-uploadProgress > * {
+	flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+	.MessageBoxMediaPreview-img {
+		height: 60px;
+		max-width: 100px;
+	}
+}

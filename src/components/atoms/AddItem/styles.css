@@ -1,0 +1,48 @@
+.AddItem {
+	position: relative;
+	padding-left: 36px;
+
+	--placeholderFontSize: 14px;
+	--inputHeight: 24px;
+	--iconSize: var(--inputHeight);
+}
+
+.AddItem-icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: var(--tomatoRed);
+}
+
+.AddItem .AddItem-icon svg {
+	width: var(--iconSize);
+	height: var(--iconSize);
+}
+
+.AddItem-input {
+	width: 100%;
+	border: none;
+	height: var(--inputHeight);
+	background-color: transparent;
+	font-size: 14px;
+	line-height: var(--inputHeight);
+	color: var(--black);
+}
+
+.AddItem-input::-webkit-input-placeholder {
+	color: var(--tomatoRed);
+	font-size: var(--placeholderFontSize);
+	line-height: var(--inputHeight);
+}
+
+.AddItem-input::-moz-placeholder {
+	color: var(--tomatoRed);
+	font-size: var(--placeholderFontSize);
+	line-height: var(--inputHeight);
+}
+
+@media (max-width: 768px) {
+	.AddItem-input {
+		font-size: var(--mobileInputSize);
+	}
+}

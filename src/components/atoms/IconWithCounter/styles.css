@@ -1,0 +1,42 @@
+.IconWithCounter {
+	position: relative;
+}
+
+.IconWithCounter-counter {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: var(--white);
+	color: var(--tomatoRed);
+	font-size: 8px;
+	line-height: 12px;
+	transition: all .2s ease-in-out;
+	text-align: center;
+}
+
+.IconWithCounter-counter-animation {
+	animation: bounce .08s ease-in-out 2 alternate;
+}
+
+@media (max-width: 768px) {
+	.IconWithCounter-counter {
+		background-color: var(--grey3);
+		color: var(--white);
+		right: auto;
+		left: 50%;
+		transform: translateX(calc(-50% + 8px));
+	}
+}
+
+@keyframes bounce {
+	from {
+		transform: scale(1);
+	}
+
+	to {
+		transform: scale(1.3);
+	}
+}

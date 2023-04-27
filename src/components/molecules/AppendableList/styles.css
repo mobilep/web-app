@@ -1,0 +1,10 @@
+.AppendableList {
+	padding: 0;
+	margin: 0;
+	overflow-y: auto;
+	max-height: 500px;
+}
+
+.AppendableList-listItem {
+	margin-bottom: 6px;
+}

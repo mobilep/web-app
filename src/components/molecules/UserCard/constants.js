@@ -1,0 +1,8 @@
+export const CARD_TYPES = {
+	NEW_MESSAGE_CARD: 'NEW_MESSAGE_CARD',
+	CONVERSATION_CARD: 'CONVERSATION_CARD',
+};
+
+export default {
+	CARD_TYPES,
+};

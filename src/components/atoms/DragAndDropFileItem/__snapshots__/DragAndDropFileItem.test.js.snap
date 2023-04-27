@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - DragAndDropFileItem Should render 1`] = `
+<div
+  className="DragAndDropFileItem"
+>
+  <div
+    className="DragAndDropFileItem-icon"
+  >
+    <FileIcon />
+  </div>
+  <div
+    className="DragAndDropFileItem-main"
+  >
+    <div
+      className="DragAndDropFileItem-info"
+    >
+      <div
+        className="DragAndDropFileItem-name"
+      >
+        Name
+      </div>
+      <div
+        className="DragAndDropFileItem-size"
+      >
+        5
+         MB
+      </div>
+    </div>
+  </div>
+  <div
+    className="DragAndDropFileItem-side"
+  >
+    <button>
+      <CloseIcon />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Atom - DragAndDropFileItem Should render with error 1`] = `
+<div
+  className="DragAndDropFileItem"
+>
+  <div
+    className="DragAndDropFileItem-icon"
+  >
+    <FileIcon />
+  </div>
+  <div
+    className="DragAndDropFileItem-main"
+  >
+    <div
+      className="DragAndDropFileItem-info"
+    >
+      <div
+        className="DragAndDropFileItem-name"
+      >
+        Name
+      </div>
+      <div
+        className="DragAndDropFileItem-size"
+      >
+        5
+         MB
+      </div>
+    </div>
+  </div>
+  <div
+    className="DragAndDropFileItem-side"
+  >
+    <InputError
+      color="red"
+      messageText="Some error"
+      onShowPopup={[Function]}
+      popUpPosition="topLeftPopUp"
+    />
+  </div>
+</div>
+`;

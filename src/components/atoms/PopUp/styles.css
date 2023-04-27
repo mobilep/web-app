@@ -1,0 +1,135 @@
+:root {
+	--triangleGutter: 14px;
+	--triangleshownArea: 22px;
+
+	/* triangle horizontal */
+	--triangleHorizontalWidth: 26px;
+	--triangleHorizontalHeight: 10px;
+
+	/* triangle vertical */
+	--triangleVerticalWidth: 10px;
+	--triangleVerticalHeight: 26px;
+}
+
+.PopUp {
+	position: relative;
+	width: 153px;
+	padding: 10px;
+	background-color: var(--tomatoRed);
+	color: var(--white);
+	font-size: 14px;
+	line-height: 20px;
+	border-radius: 3px;
+}
+
+.PopUp-background-white {
+	background-color: white;
+	color: var(--tomatoRed);
+}
+
+.PopUp-background-red {
+	background-color: var(--tomatoRed);
+	color: var(--white);
+}
+
+.PopUp-triangle {
+	position: absolute;
+	overflow: hidden;
+}
+
+.PopUp-triangle::after {
+	position: absolute;
+	transform: rotate(45deg);
+	background-color: var(--tomatoRed);
+	border-radius: 3px;
+	content: '';
+}
+
+.PopUp-background-white .PopUp-triangle::after {
+	background-color: var(--white);
+}
+
+.PopUp-background-red .PopUp-triangle::after {
+	background-color: var(--tomatoRed);
+}
+
+/* Bottom */
+.PopUp-bottomLeft,
+.PopUp-bottomRight {
+	bottom: calc(-1 * var(--triangleHorizontalHeight));
+	width: var(--triangleHorizontalWidth);
+	height: var(--triangleHorizontalHeight);
+}
+
+.PopUp-bottomLeft::after,
+.PopUp-bottomRight::after {
+	left: 0;
+	top: calc(-1 * var(--triangleshownArea));
+	width: var(--triangleHorizontalWidth);
+	height: var(--triangleHorizontalWidth);
+}
+
+.PopUp-bottomLeft {
+	left: var(--triangleGutter);
+}
+
+.PopUp-bottomRight {
+	right: var(--triangleGutter);
+}
+
+/* Top */
+.PopUp-topLeft,
+.PopUp-topRight {
+	top: calc(-1 * var(--triangleHorizontalHeight));
+	width: var(--triangleHorizontalWidth);
+	height: var(--triangleHorizontalHeight);
+}
+
+.PopUp-topLeft::after,
+.PopUp-topRight::after {
+	content: '';
+	left: 0;
+	bottom: calc(-1 * var(--triangleshownArea));
+	width: var(--triangleHorizontalWidth);
+	height: var(--triangleHorizontalWidth);
+}
+
+.PopUp-topLeft {
+	left: var(--triangleGutter);
+}
+
+.PopUp-topRight {
+	right: var(--triangleGutter);
+}
+
+/* Left Right */
+.PopUp-left,
+.PopUp-right {
+	top: 50%;
+	transform: translateY(-50%);
+	width: var(--triangleVerticalWidth);
+	height: var(--triangleVerticalHeight);
+}
+
+.PopUp-left::after,
+.PopUp-right::after {
+	top: 0;
+	width: var(--triangleVerticalHeight);
+	height: var(--triangleVerticalHeight);
+}
+
+.PopUp-left {
+	left: calc(-1 * var(--triangleVerticalWidth));
+}
+
+.PopUp-left::after {
+	right: calc(-1 * var(--triangleshownArea));
+}
+
+.PopUp-right {
+	right: calc(-1 * var(--triangleVerticalWidth));
+}
+
+.PopUp-right::after {
+	left: calc(-1 * var(--triangleshownArea));
+}

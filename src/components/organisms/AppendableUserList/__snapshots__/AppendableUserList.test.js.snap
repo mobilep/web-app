@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organism - AppendableUserList Should render 1`] = `
+<div
+  className="AppendableUserList"
+>
+  <div
+    className="AppendableUserList-userItem"
+    key="item-0"
+  >
+    <UserLabel
+      className="AppendableUserList-userLabel"
+      fullName="Rebele John"
+      initials="JR"
+    />
+  </div>
+  <div
+    className="AppendableUserList-userItem"
+    key="item-1"
+  >
+    <UserLabel
+      className="AppendableUserList-userLabel"
+      fullName="Кlokdam John"
+      initials="JK"
+    />
+  </div>
+  <div
+    className="AppendableUserList-userItem"
+    key="item-2"
+  >
+    <UserLabel
+      className="AppendableUserList-userLabel"
+      fullName="Makeba John"
+      initials="JM"
+    />
+  </div>
+</div>
+`;

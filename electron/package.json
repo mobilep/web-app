@@ -1,0 +1,47 @@
+{
+  "name": "mobilepractice",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "build-win": "build --win",
+    "make-icon": "electron-icon-maker -i ../public/favicon-192x192.png -o assets"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.9",
+    "electron-builder": "^20.36.2",
+    "electron-icon-maker": "0.0.4"
+  },
+  "build": {
+    "appId": "com.Mobile.practice",
+    "buildVersion": "2.0.0",
+    "productName": "Mobile Practice",
+    "protocols": [
+      {
+        "name": "mobilepractice",
+        "role": "Viewer",
+        "schemes": [
+          "mobilepractice"
+        ]
+      }
+    ],
+    "win": {
+      "target": {
+        "target": "nsis",
+        "arch": [
+          "ia32"
+        ]
+      }
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false
+    }
+  },
+  "dependencies": {
+    "electron-context-menu": "^0.10.1"
+  }
+}

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - MobileHeader Should render 1`] = `
+<div
+  className="MobileHeader"
+>
+  <button
+    className="MobileHeader-closeButton MobileHeader-closeArrowButton"
+  >
+    <ArrowIcon />
+  </button>
+  <div
+    className="MobileHeader-title"
+  >
+    Mobile header
+  </div>
+  <div
+    className="MobileHeader-buttons"
+  >
+    <HeaderDropdown
+      buttonsProps={
+        Array [
+          Object {
+            "label": "Edit",
+            "onClick": [Function],
+          },
+          Object {
+            "label": "Delete",
+            "onClick": [Function],
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

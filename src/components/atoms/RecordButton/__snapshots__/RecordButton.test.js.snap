@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - RecordButton Should render 1`] = `
+<MessageBoxBaseButton
+  className="RecordButton"
+>
+  <RecordIcon />
+</MessageBoxBaseButton>
+`;

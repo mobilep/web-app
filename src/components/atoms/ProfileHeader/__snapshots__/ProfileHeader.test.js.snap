@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - Profileheader Should render 1`] = `
+<div
+  className="ProfileHeader"
+>
+  <ProfileAvatar
+    color="#87d4ee"
+    imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B"
+    initials="JD"
+    text="Edit"
+  />
+  <div
+    className="ProfileHeader-infoWrapper"
+  >
+    <div
+      className="ProfileHeader-name"
+    >
+      Andy Murray
+    </div>
+    <div
+      className="ProfileHeader-company"
+    >
+      Techmagic
+    </div>
+  </div>
+</div>
+`;

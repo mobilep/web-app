@@ -1,0 +1,47 @@
+.Inbox {
+	display: flex;
+	height: 100%;
+	overflow: hidden;
+}
+
+@media (max-width: 768px) {
+	.Inbox-secondaryNavigation {
+		background-color: var(--white);
+	}
+
+	.Inbox-header {
+		align-items: center;
+		justify-content: space-between;
+		height: var(--mobile-header-height);
+		width: 100%;
+	}
+
+	.Inbox-header-new {
+		flex-direction: row-reverse;
+		justify-content: center;
+	}
+
+	.Inbox-button {
+		position: absolute;
+		top: 18px;
+		right: 15px;
+	}
+
+	.Inbox-cancelButton {
+		position: absolute;
+		left: 15px;
+		width: 24px;
+		height: 24px;
+		border: none;
+		padding: 0;
+		transform: rotate(180deg);
+	}
+
+	.Inbox-secondaryNavigation-hidden {
+		display: none;
+	}
+
+	.Inbox-secondaryNavigation .SecondaryNavigation-content {
+		overflow: hidden;
+	}
+}

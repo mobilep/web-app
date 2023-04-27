@@ -1,0 +1,63 @@
+.PrimaryNavigationItem {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-width: 50px;
+	max-width: 200px;
+	height: var(--primary-navigation-height-desktop);
+	color: var(--white);
+	font-size: 9px;
+	line-height: normal;
+	font-weight: var(--semiBold);
+	transition: all .2s ease-in-out;
+	border-radius: 0;
+	padding: 10px 5px;
+	border: 0;
+	border-bottom: 7px solid transparent;
+}
+
+.PrimaryNavigationItem:hover {
+	border-bottom-color: var(--pinkRed);
+	background-color: var(--tomatoRed);
+	text-decoration: none;
+}
+
+.PrimaryNavigationItem-active,
+.PrimaryNavigationItem-active:hover {
+	border-bottom-color: #fff;
+	background-color: #fff;
+	color: #f3423c;
+}
+
+.PrimaryNavigationItem-active .IconWithCounter-counter {
+	background-color: var(--tomatoRed);
+	color: #fff;
+}
+
+.PrimaryNavigationItem > svg,
+.PrimaryNavigationItem .IconWithCounter {
+	width: 26px;
+	height: 26px;
+	margin-bottom: 3px;
+}
+
+@media (max-width: 768px) {
+	.PrimaryNavigationItem {
+		height: 53px;
+		padding: 0;
+		border-bottom: none;
+	}
+
+	.PrimaryNavigationItem,
+	.PrimaryNavigationItem:hover {
+		background-color: var(--white);
+		color: var(--grey3);
+	}
+
+	.PrimaryNavigationItem-active,
+	.PrimaryNavigationItem-active:hover {
+		color: var(--tomatoRed);
+	}
+}

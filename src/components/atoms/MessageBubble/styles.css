@@ -1,0 +1,46 @@
+:root {
+	--MessageBubble-background-color: rgba(224, 227, 229, .6);
+	--MessageBubble-font-size: 14px;
+	--MessageBubble-border-radius-small: calc(var(--borderRadius) / 2);
+}
+
+.MessageBubble {
+	background-color: var(--MessageBubble-background-color);
+	border-radius: var(--borderRadius);
+	color: black;
+	font-size: var(--MessageBubble-font-size);
+	max-width: 800px;
+	padding: 10px 20px 10px 10px;
+	hyphens: auto;
+	overflow-wrap: break-word;
+}
+
+.MessageBubble-single {
+	border-top-right-radius: var(--MessageBubble-border-radius-small);
+}
+
+.MessageBubble-middle {
+	border-top-right-radius: var(--MessageBubble-border-radius-small);
+	border-bottom-right-radius: var(--MessageBubble-border-radius-small);
+}
+
+.MessageBubble-incoming-single {
+	border-top-left-radius: var(--MessageBubble-border-radius-small);
+}
+
+.MessageBubble-incoming-middle {
+	border-top-left-radius: var(--MessageBubble-border-radius-small);
+	border-bottom-left-radius: var(--MessageBubble-border-radius-small);
+}
+
+.MessageBubble-partial {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-bottom: 2px;
+}
+
+.MessageBubble-time {
+	margin-bottom: 4px;
+	font-size: 12px;
+	color: var(--grey3);
+}

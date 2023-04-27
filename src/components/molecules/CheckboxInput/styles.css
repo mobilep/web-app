@@ -1,0 +1,15 @@
+.CheckboxInput-wrapper {
+	position: relative;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	text-align: left;
+}
+
+.CheckboxInput-wrapper input {
+	flex-shrink: 0;
+}
+
+.CheckboxInput-label {
+	margin-left: 20px;
+}

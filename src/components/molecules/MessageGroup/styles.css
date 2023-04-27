@@ -1,0 +1,67 @@
+:root {
+	--MessageGroup-avatarSize: 50px;
+	--MessageGroup-messagesMargin: 0 20px;
+}
+
+.MessageGroup {
+	display: flex;
+	margin-top: 20px;
+	align-self: flex-start;
+}
+
+.MessageGroup:not(.incoming) {
+	align-self: flex-end;
+	flex-direction: row-reverse;
+}
+
+.MessageGroup .Avatar {
+	min-width: var(--MessageGroup-avatarSize);
+	width: var(--MessageGroup-avatarSize);
+	height: var(--MessageGroup-avatarSize);
+	font-size: calc(var(--MessageGroup-avatarSize) / 2.5);
+}
+
+.MessageGroup-content {
+	display: flex;
+	flex-direction: column;
+	margin: var(--MessageGroup-messagesMargin);
+	max-width: 100%;
+	width: 100%;
+}
+
+.MessageGroup-messages {
+	display: flex;
+	flex-direction: column;
+}
+
+.MessageGroup-message,
+.MessageGroup-message > div {
+	max-width: 100%;
+}
+
+.MessageGroup:not(.incoming) .MessageGroup-messages {
+	align-items: flex-end;
+}
+
+.MessageGroup-message:not(:first-child) {
+	margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+	.MessageGroup .Avatar {
+		min-width: 28px;
+		width: 28px;
+		height: 28px;
+		font-size: calc(28px / 2.5);
+	}
+
+	.MessageGroup-content {
+		display: flex;
+		flex-direction: column;
+		margin: 0 5px;
+	}
+
+	.MessageGroup-message {
+		max-width: 95%;
+	}
+}

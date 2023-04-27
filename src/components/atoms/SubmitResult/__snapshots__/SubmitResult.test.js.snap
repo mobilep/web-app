@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - SubmitResult Should render 1`] = `
+<div
+  className="SubmitResult "
+>
+  <div
+    className="SubmitResult-content"
+  >
+    <div>
+      <div />
+    </div>
+    <div>
+      <h3
+        className="SubmitResult-title"
+      >
+        Title
+      </h3>
+      <div
+        className="SubmitResult-message"
+      >
+        Message
+      </div>
+    </div>
+    <div>
+      <Button
+        onClick={[Function]}
+      >
+        Button label
+      </Button>
+    </div>
+  </div>
+</div>
+`;

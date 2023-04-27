@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - SignInForm Should render 1`] = `
+<div>
+  <Form
+    buttonLabel="Button"
+    className="SignInForm"
+    emailPlaceholder="Email"
+    emailValidationMessage="Validation"
+    errorMessage="Error"
+    header="Header"
+    onSubmit={[Function]}
+    paragraph="Paragraph"
+    passwordPlaceholder="Password"
+    passwordValidationMessage="Error"
+  >
+    <Component
+      errorClassName="SignInForm-Text-error"
+      errorText="Validation"
+      name="email"
+      placeholder="Email"
+      required={true}
+      type="email"
+    />
+    <Component
+      errorClassName="SignInForm-Text-error"
+      errorText="Error"
+      name="password"
+      placeholder="Password"
+      required={true}
+      type="password"
+    />
+    <div>
+      <Component
+        className="SignInForm-button"
+      >
+        Button
+      </Component>
+    </div>
+  </Form>
+</div>
+`;

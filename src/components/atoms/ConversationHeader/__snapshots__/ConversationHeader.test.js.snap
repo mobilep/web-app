@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - ConversationHeader Should render 1`] = `
+<div
+  className="ConversationHeader"
+>
+  <div
+    className="ConversationHeader-user"
+  >
+    <Avatar
+      border={false}
+      className="ConversationHeader-avatar"
+      initials="JD"
+      size="avatar-44"
+    />
+    <div
+      className="ConversationHeader-user-name"
+    >
+      <span>
+        Test
+      </span>
+      <p>
+        Jon Doe
+      </p>
+    </div>
+  </div>
+  <div
+    className="ConversationHeader-user ConversationHeader-user-right"
+  >
+    <Avatar
+      border={false}
+      className="ConversationHeader-avatar"
+      initials="JD"
+      size="avatar-44"
+    />
+    <div
+      className="ConversationHeader-user-name ConversationHeader-user-name-secondary"
+    >
+      <span />
+      <p>
+        Test Test
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Atom - ConversationHeader Should render with action button 1`] = `
+<div
+  className="ConversationHeader"
+>
+  <div
+    className="ConversationHeader-user"
+  >
+    <Avatar
+      border={false}
+      className="ConversationHeader-avatar"
+      initials="JD"
+      size="avatar-44"
+    />
+    <div
+      className="ConversationHeader-user-name"
+    >
+      <span>
+        Test
+      </span>
+      <p>
+        Jon Doe
+      </p>
+    </div>
+  </div>
+  <div
+    className="ConversationHeader-evaluate"
+  >
+    <Button
+      className="Button-text p-h-0"
+      onClick={[Function]}
+    >
+      Label
+    </Button>
+  </div>
+  <div
+    className="ConversationHeader-user ConversationHeader-user-right"
+  >
+    <Avatar
+      border={false}
+      className="ConversationHeader-avatar"
+      initials="JD"
+      size="avatar-44"
+    />
+    <div
+      className="ConversationHeader-user-name ConversationHeader-user-name-secondary"
+    >
+      <span />
+      <p>
+        Test Test
+      </p>
+    </div>
+  </div>
+</div>
+`;

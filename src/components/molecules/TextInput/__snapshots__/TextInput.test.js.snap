@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - TextInput Should render 1`] = `
+<div
+  className="TextInput-wrapper undefined"
+>
+  <input
+    className="TextInput"
+    name="Name"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={null}
+    pattern={null}
+    placeholder="Placeholder"
+    type="text"
+  />
+</div>
+`;
+
+exports[`Molecule - TextInput Should render with error 1`] = `
+<div
+  className="TextInput-wrapper undefined"
+>
+  <input
+    className="TextInput TextInput-invalid"
+    name="Name"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={null}
+    pattern={null}
+    placeholder="Placeholder"
+    type="text"
+  />
+</div>
+`;

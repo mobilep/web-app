@@ -1,0 +1,115 @@
+.Message {
+	--errorTooltipWidth: 210px;
+	--warningIconSize: 30px;
+	--evaluationIconSize: 20px;
+
+	display: flex;
+}
+
+.Message-partial-content {
+	border-radius: 0 0 5px 5px;
+}
+
+.Message-partial-content,
+.MessageBubble-partial,
+.MessageBubble {
+	width: 400px;
+}
+
+.Message-evaluationMessage {
+	display: flex;
+	margin-top: 5px;
+	align-items: center;
+}
+
+.Message-evaluationIcon {
+	width: var(--evaluationIconSize);
+	height: var(--evaluationIconSize);
+	margin-right: 5px;
+}
+
+.Message-error {
+	height: var(--warningIconSize);
+	min-width: var(--warningIconSize);
+	margin-right: 8px;
+	color: var(--tomatoRed);
+}
+
+.incoming .Message-error {
+	order: 1;
+	margin-right: 0;
+	margin-left: 8px;
+}
+
+.Message-error .PopUp {
+	background-color: var(--tomatoRed);
+	color: var(--white);
+	width: var(--errorTooltipWidth);
+}
+
+.Message-error .PopUp-triangle {
+	color: var(--tomatoRed);
+}
+
+.Message-evaluation-details {
+	border: none;
+	padding: 0;
+	background-color: transparent;
+	text-decoration: var(--black) underline;
+	color: var(--black);
+}
+
+.Message-ViewScenarioLink {
+	display: block;
+	max-width: 200px;
+	margin: 10px auto;
+}
+
+.Message-ViewScenarioLink:hover {
+	background-color: transparent;
+}
+
+.Message-evaluation-details:hover {
+	background-color: transparent;
+	color: var(--black);
+}
+
+@media (max-width: 1140px) {
+	.Message-partial-content,
+	.MessageBubble-partial,
+	.MessageBubble {
+		width: 300px;
+	}
+}
+
+@media (max-width: 768px) {
+	.Message-partial-content,
+	.MessageBubble-partial,
+	.MessageBubble {
+		width: 350px;
+	}
+}
+
+@media (max-width: 500px) {
+	.Message-partial-content,
+	.MessageBubble-partial,
+	.MessageBubble {
+		width: 300px;
+	}
+}
+
+@media (max-width: 400px) {
+	.Message-partial-content,
+	.MessageBubble-partial,
+	.MessageBubble {
+		width: 250px;
+	}
+}
+
+@media (max-width: 345px) {
+	.Message-partial-content,
+	.MessageBubble-partial,
+	.MessageBubble {
+		width: 220px;
+	}
+}

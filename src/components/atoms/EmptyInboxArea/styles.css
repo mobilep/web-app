@@ -1,0 +1,32 @@
+.EmptyInboxArea-empty-wrapper {
+	width: 245px;
+	height: 181px;
+	background: none;
+	color: var(--grey5);
+}
+
+.EmptyInboxArea-empty-chat-area {
+	width: 245px;
+	color: var(--grey3);
+	text-align: center;
+}
+
+.EmptyInboxArea-empty-area-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+@media (max-width: 769px) {
+	.EmptyInboxArea-empty-wrapper {
+		width: 150px;
+	}
+
+	.EmptyInboxArea-empty-chat-area {
+		display: none;
+	}
+}

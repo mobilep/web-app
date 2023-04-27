@@ -1,0 +1,15 @@
+.SearchSelect {
+	position: relative;
+	width: 100%;
+}
+
+.SearchSelect .SearchSelect-selectList {
+	width: calc(100% - 36px);
+	max-height: 400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+	margin-left: 36px;
+	position: absolute;
+	z-index: 1;
+}

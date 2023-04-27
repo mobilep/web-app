@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - SettingsPanel Should render 1`] = `
+<section
+  className="SettingsPanel"
+>
+  <QuestionIcon />
+  <hr />
+  <div
+    className="SettingsPanel-content"
+  >
+    <h1>
+      Title
+    </h1>
+    <p>
+      Description
+    </p>
+    <a
+      href="#"
+    >
+      Some link
+    </a>
+  </div>
+</section>
+`;

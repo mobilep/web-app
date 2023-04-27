@@ -1,0 +1,33 @@
+.LearnerReportFilters {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.LearnerReportFilters-filter {
+	display: flex;
+	flex-basis: 50%;
+	margin-bottom: 0;
+}
+
+.LearnerReportFilters-filter:first-child {
+	margin-right: 20px;
+}
+
+.LearnerReportFilters-labelText {
+	margin-right: 8px;
+}
+
+.LearnerReportFilters-filter select {
+	flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+	.LearnerReportFilters {
+		flex-direction: column;
+	}
+
+	.LearnerReportFilters-filter:first-child {
+		margin-right: 0;
+	}
+}

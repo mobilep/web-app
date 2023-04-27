@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - RemoveItemButton Should render 1`] = `
+<ButtonIcon
+  icon={<TrashIcon />}
+/>
+`;

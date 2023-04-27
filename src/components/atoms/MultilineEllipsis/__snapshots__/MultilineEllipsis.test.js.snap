@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - MultilineEllipsis Should render 1`] = `
+<span
+  className="MultilineEllipsis"
+  title="Text"
+/>
+`;

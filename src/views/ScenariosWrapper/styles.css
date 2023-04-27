@@ -1,0 +1,108 @@
+.ScenariosWrapper-container {
+	width: 100%;
+	display: flex;
+	min-width: 0;
+}
+
+.ScenariosWrapper-content-currentScenarioContentFetching {
+	position: relative;
+}
+
+.ScenariosWrapper-validationDialog {
+	width: 570px;
+	height: 450px;
+}
+
+.ScenariosWrapper-secondaryNavigation .SecondaryNavigation-content {
+	height: calc(100vh - 77px);
+	overflow-y: auto;
+}
+
+.ScenariosWrapper-dialog-content {
+	font-size: 22px;
+	color: var(--black2);
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.ScenariosWrapper-dialog-buttonGroup button {
+	font-size: 16px;
+	margin: 0 5px;
+	min-width: 150px;
+}
+
+.ScenarioWrapper-delete-dialog {
+	flex-direction: column;
+}
+
+.ScenariosWrapper-error-submit {
+	color: var(--almostBlack);
+	overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+	.Scenarios-content-mobileHidden {
+		display: none;
+	}
+
+	.ScenariosWrapper-secondaryNavigation .SecondaryNavigation-content {
+		height: calc(100vh - 77px);
+	}
+
+	.ScenariosWrapper-content {
+		padding: 0 15px;
+	}
+
+	.ScenariosWrapper-validationDialog {
+		width: 80%;
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-bottom: 20px;
+	}
+
+	.Scenarios-mobile-header {
+		background-color: var(--white);
+		position: relative;
+		height: var(--mobile-header-height);
+	}
+
+	.ScenariosWrapper-error-submit {
+		height: 100%;
+	}
+
+	.ScenariosWrapper-error-submit h3 {
+		font-size: 20px;
+	}
+
+	.ScenariosWrapper-error-submit .SubmitResult-message {
+		font-size: 14px;
+	}
+
+	.ScenariosWrapper-dialog-buttonGroup {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+	.ScenariosWrapper-content {
+		padding: 0 40px;
+	}
+}
+
+@media (min-width: 1201px) {
+	.ScenariosWrapper-content {
+		padding: 0 90px;
+	}
+}
+
+.ScenariosWrapper-content {
+	width: 100%;
+	overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+	.Scenarios .ScenariosWrapper-NavigationMobileHidden {
+		display: none;
+	}
+}

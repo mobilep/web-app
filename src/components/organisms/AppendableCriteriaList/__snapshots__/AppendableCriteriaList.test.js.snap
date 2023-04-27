@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organisms - AppendableCriteriaList Should render 1`] = `
+<Fragment>
+  <AppendableList
+    items={Array []}
+    type="check"
+    withInput={false}
+  />
+</Fragment>
+`;

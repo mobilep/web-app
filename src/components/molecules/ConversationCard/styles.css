@@ -1,0 +1,15 @@
+.ConversationCard {
+	border-bottom: var(--lightBorder);
+}
+
+@media (max-width: 768px) {
+	.ConversationCard {
+		height: 77px;
+		background-color: var(--white);
+		width: 99%;
+	}
+
+	.ConversationCard-practice {
+		height: 86px;
+	}
+}

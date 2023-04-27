@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - GroupsPeopleList Should render GroupsPeopleList component 1`] = `
+<div
+  className="GroupsPeopleList"
+>
+  <GroupPeopleItem
+    counter={6}
+    header="Techmagic team"
+    key="5b3b84595d7f59044c6759ea"
+    name="5b3b84595d7f59044c6759ea"
+    onSelectGroup={[Function]}
+    people={
+      Array [
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+      ]
+    }
+  />
+  <GroupPeopleItem
+    counter={6}
+    header="SoftServe team"
+    key="5b3b84595d7f59044c6759eb"
+    name="5b3b84595d7f59044c6759eb"
+    onSelectGroup={[Function]}
+    people={
+      Array [
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+      ]
+    }
+  />
+  <GroupPeopleItem
+    counter={6}
+    header="Epam team"
+    key="5b3b84595d7f59044c6759ec"
+    name="5b3b84595d7f59044c6759ec"
+    onSelectGroup={[Function]}
+    people={
+      Array [
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+        Object {
+          "avatarColor": "#87d4ee",
+          "firstName": "Clayton",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B",
+          "lastName": "Gross",
+        },
+      ]
+    }
+  />
+</div>
+`;

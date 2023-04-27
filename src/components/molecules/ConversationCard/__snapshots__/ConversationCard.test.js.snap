@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - ConversationCard Should render 1`] = `
+<Wrapper
+  className="ConversationCard"
+  date={1530602808384}
+  message="Message"
+  person="Mr. Person"
+  personInitials="MP"
+  type="CONVERSATION_CARD"
+/>
+`;

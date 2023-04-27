@@ -1,0 +1,35 @@
+.Profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	overflow-y: auto;
+	height: 100%;
+}
+
+/* common reports styles */
+.Report-mobileHeader {
+	border-bottom: 1px solid var(--grey2);
+	padding: 16px 15px;
+	margin-bottom: 20px;
+}
+
+.Report-profileMobileHeader {
+	margin-bottom: 0;
+}
+
+.Report-breadCrumbs {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.Report-headerWrapper {
+	background-color: var(--grey1);
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.Report-lineOnSides {
+	margin-bottom: 16px;
+}

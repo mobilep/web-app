@@ -1,0 +1,35 @@
+.ProgressBar {
+	position: relative;
+
+	/* Number */
+	--numberLineHeight: 17px;
+	--numberFontSize: 12px;
+
+	/* Progress */
+	--progressHeight: 2px;
+	--progressBorderRadius: 1px;
+}
+
+.ProgressBar-bar {
+	height: var(--progressHeight);
+	border-radius: var(--progressBorderRadius);
+	background-color: var(--tomatoRed);
+	opacity: .28;
+}
+
+.ProgressBar-value {
+	position: absolute;
+	left: 0;
+	top: var(--numberLineHeight);
+	height: var(--progressHeight);
+	border-radius: var(--progressBorderRadius);
+	background-color: var(--tomatoRed);
+}
+
+.ProgressBar-number {
+	font-size: var(--numberFontSize);
+	line-height: var(--numberLineHeight);
+	color: var(--grey3);
+	font-weight: var(--normal);
+	text-align: right;
+}

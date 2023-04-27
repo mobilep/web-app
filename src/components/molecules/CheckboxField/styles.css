@@ -1,0 +1,30 @@
+.CheckboxField {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.CheckboxField input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 22px;
+	width: 22px;
+}
+
+.CheckboxField-checkmark {
+	position: relative;
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	color: transparent;
+	border: 1px solid var(--grey9);
+	margin-right: 20px;
+	flex-shrink: 0;
+}
+
+.CheckboxField input:checked ~ .CheckboxField-checkmark {
+	background-color: var(--tomatoRed);
+	color: white;
+	border: none;
+}

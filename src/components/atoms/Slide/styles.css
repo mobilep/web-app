@@ -1,0 +1,28 @@
+.Slide {
+	overflow: auto;
+	position: relative;
+	width: 100%;
+}
+
+.Slide-content {
+	padding: 10px 30px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+.Slide-img {
+	margin-bottom: 20px;
+	max-width: 191px;
+}
+
+@media (max-height: 600px) {
+	.Slide-img {
+		max-height: 300px;
+	}
+}
+
+.Slide-title {
+	font-size: 26px;
+}

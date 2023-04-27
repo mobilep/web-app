@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - ErrorDialog Should render 1`] = `
+<Dialog
+  className="ErrorDialog"
+  closeButton={true}
+  onClose={[Function]}
+>
+  <div
+    className="ErrorDialog-content"
+  >
+    <div
+      className="ErrorDialog-icon"
+    >
+      <ErrorIcon />
+    </div>
+    <div
+      className="ErrorDialog-text-content"
+    >
+      <div
+        className="ErrorDialog-header"
+      >
+        Header
+      </div>
+      <div
+        className="ErrorDialog-message"
+      >
+        Text content
+      </div>
+    </div>
+    <div
+      className="ErrorDialog-button-wrapper"
+    >
+      <Button
+        className="ErrorDialog-button"
+        onClick={[Function]}
+      >
+        Button Label
+      </Button>
+    </div>
+  </div>
+</Dialog>
+`;

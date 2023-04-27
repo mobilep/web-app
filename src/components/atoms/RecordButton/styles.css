@@ -1,0 +1,17 @@
+.Button.RecordButton,
+.Button.RecordButton:hover {
+	height: 40px;
+	background-color: transparent;
+	color: var(--tomatoRed);
+	outline: 0;
+}
+
+.RecordButton svg {
+	width: 20px;
+	height: 20px;
+}
+
+.RecordButton.recording svg {
+	background-color: var(--tomatoRed);
+	border-radius: 4px;
+}

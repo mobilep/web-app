@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - DialogWithButtonGroup Should render 1`] = `
+<DialogWithButtonGroup
+  actionButtonLabel="Action button"
+  cancelButtonLabel="Cancel button"
+  onActionButtonClick={[Function]}
+  onCancelButtonClick={[Function]}
+>
+  <Dialog
+    className="DialogWithButtonGroup"
+    closeButton={true}
+    onClose={[Function]}
+  >
+    <dialog
+      className="Dialog-landscapeMode DialogWithButtonGroup"
+    >
+      <button
+        className="Dialog-close-button"
+        onClick={[Function]}
+      >
+        <CloseIcon>
+          <SVGWrapper
+            color="currentColor"
+            height={31}
+            width={31}
+          >
+            <svg
+              className="svgWrapper"
+              version="1.1"
+              viewBox="0 0 31 31"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+              >
+                <path
+                  d="M21.333 21.333l-6.666-6.666L21.333 8"
+                />
+                <path
+                  d="M8 21.333l6.667-6.666L8 8"
+                />
+              </g>
+            </svg>
+          </SVGWrapper>
+        </CloseIcon>
+      </button>
+      <div
+        className="DialogWithButtonGroup-content"
+      >
+        DialogWithButtonGroup content
+      </div>
+      <div
+        className="DialogWithButtonGroup-buttonGroup"
+      >
+        <Button
+          color="grey"
+          onClick={[Function]}
+        >
+          <button
+            className="Button Button-grey"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Cancel button
+          </button>
+        </Button>
+        <Button
+          onClick={[Function]}
+        >
+          <button
+            className="Button"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Action button
+          </button>
+        </Button>
+      </div>
+    </dialog>
+  </Dialog>
+</DialogWithButtonGroup>
+`;

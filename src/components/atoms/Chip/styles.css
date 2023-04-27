@@ -1,0 +1,12 @@
+.Chip {
+	display: inline-flex;
+	align-items: center;
+	padding: 5px 10px;
+	background-color: var(--grey2);
+	border-radius: 100px;
+}
+
+.Chip-deleteBtn {
+	margin-left: 5px;
+	color: var(--radicalRed);
+}

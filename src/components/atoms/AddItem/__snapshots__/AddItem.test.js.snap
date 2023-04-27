@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - AddItem Should render 1`] = `
+<div
+  className="AddItem"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <AddItemButton
+      className="AddItem-icon"
+      onClick={[Function]}
+    />
+    <input
+      className="AddItem-input"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </form>
+</div>
+`;

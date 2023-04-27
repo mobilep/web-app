@@ -1,0 +1,24 @@
+.ImageMessage {
+	cursor: pointer;
+	max-width: 100%;
+}
+
+.ImageMessage-spinnerIcon {
+	height: 150px;
+}
+
+.ImageMessage-previewDialog {
+	padding: 0;
+}
+
+.ImageMessage-previewDialog .Dialog-close-button {
+	border-radius: 50%;
+	background-color: var(--tomatoRed);
+	color: white;
+	padding: 3px;
+}
+
+.ImageMessage-previewImg {
+	border-radius: 5px;
+	max-height: 95vh;
+}

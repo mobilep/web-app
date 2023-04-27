@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+/electron/node_modules
+/electron/dist
+/email-templates/node_modules
+/email-templates/dist
+
+# testing
+/coverage
+
+# production
+/build
+/storybook-static
+
+# Environment variables
+.env
+
+# OS-specific temporary files
+Thumbs.db
+.DS_Store
+
+# Code editorsgit
+.vscode/
+.idea/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

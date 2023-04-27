@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - TeamsCheckbox Should render default mode 1`] = `
+<label
+  className="TeamsCheckbox"
+>
+  <Avatar
+    border={false}
+    color="#F3423C"
+    img="https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg"
+    initials="NN"
+    size="avatar-50"
+  />
+  <span
+    className="Teamscheckbox-name"
+  >
+    Myra Holt
+  </span>
+</label>
+`;
+
+exports[`Atom - TeamsCheckbox Should render edit mode 1`] = `
+<label
+  className="TeamsCheckbox"
+>
+  <input
+    type="checkbox"
+  />
+  <span
+    className="TeamsCheckbox-checkmark"
+  >
+    <CheckIcon />
+  </span>
+  <Avatar
+    border={false}
+    color="#F3423C"
+    img="https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg"
+    initials="NN"
+    size="avatar-50"
+  />
+  <span
+    className="Teamscheckbox-name"
+  >
+    Myra Holt
+  </span>
+</label>
+`;

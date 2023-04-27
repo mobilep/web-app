@@ -1,0 +1,82 @@
+.ResetPasswordForm-termsWrapper {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	text-align: left;
+}
+
+.ResetPasswordForm .Form-paragraph {
+	text-align: left;
+	width: 100%;
+	max-width: 320px;
+	margin: 20px auto 25px;
+	line-height: 35px;
+	font-size: 17px;
+}
+
+@media (max-width: 768px) {
+	.ResetPasswordForm .Form-paragraph {
+		margin: 10px auto 15px;
+		line-height: 25px;
+		font-size: 15px;
+	}
+}
+
+.ResetPasswordForm a.ResetPasswordForm-termsLink {
+	cursor: pointer;
+	font-weight: 700;
+	text-decoration: underline;
+	display: inline-block;
+}
+
+.ResetPasswordTokenNotValid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.ResetPasswordTokenNotValid .ResetPasswordTokenNotValid__Title {
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+.ResetPasswordFormError {
+	text-align: left;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+@media (max-width: 768px) {
+	.ResetPasswordFormError {
+		margin-top: 30px;
+		font-size: 11px;
+	}
+}
+
+.ResetPasswordForm-termsWrapper label {
+	margin-left: 20px;
+}
+
+.ResetPasswordForm-termsAndConditionsDialog {
+	width: 570px;
+	height: 570px;
+	padding: 40px;
+	z-index: 1;
+	background: var(--white);
+}
+
+.ResetPasswordForm-termsAndConditionsDialogContent {
+	overflow: auto;
+	max-height: 100%;
+	padding-right: 15px;
+}
+
+@media (max-width: 768px) {
+	.ResetPasswordForm-termsAndConditionsDialog {
+		height: 100%;
+		width: 100%;
+		border-radius: 0;
+		padding: 20px;
+	}
+}

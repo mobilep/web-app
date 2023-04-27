@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - SearchBox Should render 1`] = `
+<div
+  className="SearchBox"
+>
+  <SearchIcon />
+  <TextInput
+    className="SearchBox-inputBox"
+    inputClassName="SearchBox-input"
+    name="Name"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Atom - SearchBox Should render with category 1`] = `
+<div
+  className="SearchBox"
+>
+  <SearchIcon />
+  <TextInput
+    className="SearchBox-inputBox"
+    inputClassName="SearchBox-input"
+    name="Name"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+</div>
+`;

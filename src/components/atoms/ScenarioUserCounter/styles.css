@@ -1,0 +1,15 @@
+.ScenarioUserCounter {
+	color: var(--grey3);
+	display: flex;
+	align-items: center;
+}
+
+.ScenarioUserCounter > svg {
+	height: 30px;
+	width: 30px;
+}
+
+.ScenarioUserCounter-text {
+	font-size: 14px;
+	margin-left: 10px;
+}

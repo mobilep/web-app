@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - ErrorBox Should render 1`] = `
+<div
+  className="ErrorBox"
+>
+  <span
+    className="ErrorBox-message"
+  >
+    Message
+  </span>
+</div>
+`;

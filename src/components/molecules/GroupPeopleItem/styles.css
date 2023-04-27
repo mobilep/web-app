@@ -1,0 +1,26 @@
+.GroupPeopleItem + .GroupPeopleItem {
+	border-top: var(--lightBorder);
+}
+
+.GroupPeopleItem-left-content {
+	width: calc(100% - 42px);
+}
+
+.GroupPeopleItem-header {
+	font-size: 14px;
+	color: var(--almostBlack);
+	letter-spacing: -.3px;
+	margin-bottom: 4px;
+}
+
+.GroupPeopleItem .GroupPeopleItem-counter {
+	background-color: var(--grey3);
+	color: var(--white);
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+}

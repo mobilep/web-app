@@ -1,0 +1,64 @@
+.BestPracticCard {
+	position: relative;
+	display: flex;
+}
+
+.BestPracticeCard-switcher {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.BestPracticeCard-button {
+	color: var(--tomatoRed);
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+}
+
+.BestPracticeCard-button:hover {
+	background-color: transparent;
+	color: var(--darkRed);
+}
+
+.BestPracticeCard-button-left {
+	transform: rotate(-90deg);
+}
+
+.BestPracticeCard-button-right {
+	transform: rotate(90deg);
+}
+
+.BestPracticeCard-range {
+	font-size: 12px;
+	color: var(--grey3);
+}
+
+.BestPracticeCard-controls {
+	display: flex;
+	padding: 20px 0;
+}
+
+@media (min-width: 769px) {
+	.BestPracticeCard-controls > button + button {
+		margin-left: 25px;
+	}
+}
+
+@media (max-width: 768px) {
+	.BestPracticeCard-controls {
+		padding: 0;
+		flex-direction: column-reverse;
+	}
+
+	.BestPracticeCard-controls button {
+		margin-top: 15px;
+		justify-content: unset;
+	}
+
+	.AddBestPracticeButton > .ButtonIcon-label {
+		text-align: left;
+	}
+}

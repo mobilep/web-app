@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - MessageListDate Should render 1`] = `
+<div
+  className="LineOnSides"
+>
+  4 July
+</div>
+`;

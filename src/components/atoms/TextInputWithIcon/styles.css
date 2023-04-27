@@ -1,0 +1,39 @@
+.TextInputWithIcon {
+	display: flex;
+	align-items: center;
+	color: var(--black);
+	border: solid 1px var(--grey4);
+	border-radius: 4px;
+	margin-bottom: 15px;
+	width: auto;
+}
+
+.TextInputWithIcon svg {
+	color: var(--grey3);
+	width: 34px;
+	height: 34px;
+}
+
+.TextInputWithIcon .TextInput {
+	color: var(--almostBlack);
+	height: 34px;
+	border: none;
+	padding: 0 10px 0 4px;
+}
+
+.TextInputWithIcon .TextInput::-webkit-input-placeholder {
+	color: var(--almostBlack);
+}
+
+@media (max-width: 768px) {
+	.TextInputWithIcon {
+		border: solid 1px var(--grey2);
+		height: 50px;
+		margin-bottom: 0;
+		font-size: var(--mobileInputSize);
+	}
+
+	.TextInputWithIcon::placeholder {
+		font-size: var(--mobileInputSize);
+	}
+}

@@ -1,0 +1,25 @@
+.AddFileButton {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.AddFileButton-fileInput {
+	bottom: 0;
+	cursor: pointer;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+
+.AddFileButton:disabled .AddFileButton-fileInput {
+	pointer-events: none;
+}
+
+.AddFileButton-iconWrapper {
+	align-items: center;
+	display: flex;
+}

@@ -1,0 +1,66 @@
+:root {
+	--AppendableListItem-leftPadding: 32px;
+}
+
+.AppendableListItem {
+	padding-right: 32px;
+	color: var(--almostBlack);
+	font-size: 14px;
+	list-style-type: none;
+	position: relative;
+}
+
+.AppendableListItem:not(.AppendableListItem-add) {
+	padding-left: var(--AppendableListItem-leftPadding);
+}
+
+.AppendableListItem-red {
+	color: var(--radicalRed);
+}
+
+/* Button styling */
+
+.AppendableListItem > button:not(.AppendableListItem-removeButton) {
+	background: none;
+	border: 0;
+	color: inherit;
+	cursor: pointer;
+	padding: 0 0 0 var(--AppendableListItem-leftPadding);
+}
+
+/* Icon styling */
+
+.AppendableListItem .AppendableListItem-icon {
+	align-items: center;
+	border-radius: 50%;
+	border: 1px solid currentColor;
+	display: flex;
+	height: 20px;
+	justify-content: center;
+	left: 2px;
+	margin-right: 12px;
+	position: absolute;
+	top: 1px;
+	transform: scale(.9999);
+	user-select: none;
+	width: 20px;
+}
+
+.AppendableListItem .AppendableListItem-icon svg {
+	transform: translateX(.5px);
+}
+
+.AppendableListItem-add .AppendableListItem-icon {
+	font-size: 16px;
+}
+
+.AppendableListItem-step .AppendableListItem-icon {
+	font-size: 10px;
+	font-weight: 600;
+}
+
+.AppendableListItem-removeButton {
+	position: absolute;
+	right: 0;
+	top: 1px;
+}

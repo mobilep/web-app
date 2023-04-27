@@ -1,0 +1,9 @@
+.UserSearchSelect {
+	position: relative;
+	width: 100%;
+}
+
+.UserSearchSelect-userSearchSelect {
+	margin-left: 36px;
+	position: relative;
+}

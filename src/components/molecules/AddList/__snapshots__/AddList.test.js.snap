@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - AddList Should render 1`] = `
+<div
+  className="AddList"
+>
+  <div
+    className="AddList-item"
+    key="item-0"
+  >
+    <UserLabel
+      fullName="John Smith"
+      initials="JS"
+    />
+    <button
+      className="AddList-removeButton"
+      onClick={[Function]}
+    >
+      <TrashIcon
+        className="AddList-trashIcon"
+      />
+    </button>
+  </div>
+  <div
+    className="AddList-item"
+    key="item-1"
+  >
+    <UserLabel
+      fullName="Philippe Starck"
+      initials="PS"
+    />
+    <button
+      className="AddList-removeButton"
+      onClick={[Function]}
+    >
+      <TrashIcon
+        className="AddList-trashIcon"
+      />
+    </button>
+  </div>
+  <div
+    className="AddList-item"
+    key="item-2"
+  >
+    <UserLabel
+      fullName="Suzy Salmon"
+      initials="SS"
+    />
+    <button
+      className="AddList-removeButton"
+      onClick={[Function]}
+    >
+      <TrashIcon
+        className="AddList-trashIcon"
+      />
+    </button>
+  </div>
+  <AddItem
+    className="AddList-addItem"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="Add a few criteria…"
+    value=""
+  />
+  <div
+    className="AddList-autoComplete"
+  >
+    <UserSelectList
+      className="AddList-selectList"
+      items={Array []}
+      onMouseOver={[Function]}
+      onSelect={[Function]}
+      selectedItem={-1}
+    />
+  </div>
+</div>
+`;

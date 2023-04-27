@@ -1,0 +1,18 @@
+.ViewLoader {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.ViewLoader-spinner {
+	width: 160px;
+	height: 160px;
+}
+
+@media (max-width: 768px) {
+	.ViewLoader-spinner {
+		height: 100px;
+		width: 100px;
+	}
+}

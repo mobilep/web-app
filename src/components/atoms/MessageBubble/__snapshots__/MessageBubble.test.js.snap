@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - MessageBubble Should render 1`] = `
+<div
+  className="MessageBubble undefined MessageBubble-single"
+>
+  <div
+    className="MessageBubble-time"
+  />
+  <div>
+    Text
+  </div>
+</div>
+`;
+
+exports[`Atom - MessageBubble Should render as incoming 1`] = `
+<div
+  className="MessageBubble undefined MessageBubble-incoming-single"
+>
+  <div
+    className="MessageBubble-time"
+  />
+  <div>
+    Text
+  </div>
+</div>
+`;
+
+exports[`Atom - MessageBubble Should render as incoming single or last 1`] = `
+<div
+  className="MessageBubble undefined MessageBubble-incoming-single"
+>
+  <div
+    className="MessageBubble-time"
+  />
+  <div>
+    Text
+  </div>
+</div>
+`;
+
+exports[`Atom - MessageBubble Should render as single or last 1`] = `
+<div
+  className="MessageBubble undefined MessageBubble-single"
+>
+  <div
+    className="MessageBubble-time"
+  />
+  <div>
+    Text
+  </div>
+</div>
+`;

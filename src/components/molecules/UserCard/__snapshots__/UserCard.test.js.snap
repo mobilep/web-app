@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - UserCard Should render with type CONVERSATION_CARD 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Molecule - UserCard Should render with type NEW_MESSAGE_CARD 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

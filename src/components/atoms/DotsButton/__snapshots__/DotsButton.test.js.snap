@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - DotsButton Should render 1`] = `
+<ButtonIcon
+  icon={
+    <DotsIcon
+      className="DotsButton-icon"
+    />
+  }
+/>
+`;

@@ -1,0 +1,69 @@
+.ScenarioHeaderSection {
+	display: flex;
+	padding: var(--scenario-section-vertical-padding) 0;
+}
+
+.ScenarioHeaderSection-content {
+	flex-grow: 1;
+	position: relative;
+	width: calc(100% - 431px);
+	display: flex;
+	flex-direction: column;
+}
+
+.ScenarioHeaderSection-header {
+	font-size: 22px;
+	color: var(--almostBlack);
+	margin-bottom: 20px;
+}
+
+.ScenarioHeaderSection-text {
+	font-size: 14px;
+	margin-bottom: 30px;
+	color: var(--almostBlack);
+}
+
+.ScenarioHeaderSection-image .ScenarioHeaderSection-video-tile {
+	background: transparent;
+}
+
+.ScenarioHeaderSection-image .ScenarioHeaderSection-video-tile:disabled {
+	background-color: var(--grey-blur);
+}
+
+.ScenarioHeaderSection input.ScenarioHeaderSection-input-name {
+	height: 30px;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.ScenarioHeaderSection input.ScenarioHeaderSection-input-name::placeholder {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+div.ScenarioHeaderSection-inputWrapper {
+	width: 80%;
+}
+
+@media (min-width: 769px) {
+	.ScenarioHeaderSection-mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.ScenarioHeaderSection {
+		display: none;
+	}
+}
+
+@media (max-width: 1200px) {
+	.ScenarioHeaderSection {
+		flex-wrap: wrap-reverse;
+	}
+
+	div.ScenarioHeaderSection-inputWrapper {
+		width: 91%;
+	}
+}

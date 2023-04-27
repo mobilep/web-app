@@ -1,0 +1,106 @@
+.HeaderDropdown {
+	--boxShadowColor1: rgba(0, 0, 0, .1);
+	--boxShadowColor2: rgba(0, 0, 0, .3);
+
+	position: relative;
+}
+
+.HeaderDropdown-dotsButton {
+	color: var(--tomatoRed);
+	overflow: hidden;
+}
+
+.HeaderDropdown-dropDownWrapper {
+	position: absolute;
+	background: var(--white);
+	box-shadow: 0 1px 5px var(--boxShadowColor2);
+	width: 190px;
+	top: 45px;
+	left: -160px;
+	z-index: 1;
+}
+
+.HeaderDropdown .HeaderDropdown-dropDownWrapper {
+	display: none;
+}
+
+.HeaderDropdown-dropDownVisible .HeaderDropdown-dropDownWrapper {
+	display: block;
+}
+
+.HeaderDropdown-dropDown {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.HeaderDropdown-triangle {
+	width: 26px;
+	height: 15px;
+	position: absolute;
+	background: var(--white);
+	right: 5px;
+	top: -12px;
+	overflow: hidden;
+}
+
+.HeaderDropdown-triangle::after {
+	content: '';
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	left: 0;
+	top: 5px;
+	transform: rotate(45deg);
+	box-shadow: -1px -1px var(--boxShadowColor1);
+	border-radius: 3px;
+}
+
+.HeaderDropdown-button {
+	font-size: 16px;
+	min-height: 45px;
+	border-radius: 0;
+}
+
+.HeaderDropdown-button + .HeaderDropdown-button {
+	margin-top: 3px;
+	border-top: 1px solid var(--tomatoRed);
+}
+
+.HeaderDropdown-attach {
+	width: 50px;
+	height: 50px;
+	border: none;
+	background-color: transparent;
+	padding: 0;
+	color: var(--grey3);
+}
+
+.HeaderDropdown-attach svg {
+	width: 50px;
+	height: 50px;
+	object-fit: contain;
+	position: absolute;
+	left: 14px;
+	top: 14px;
+}
+
+.HeaderDropdown-attach:hover {
+	color: var(--grey3);
+}
+
+.HeaderDropdown-attach:focus {
+	color: var(--grey3);
+}
+
+.HeaderDropdown-wrapper-upside-down {
+	left: -140px;
+	bottom: calc(100% + 15px);
+	top: unset;
+}
+
+.HeaderDropdown-triangle-down {
+	top: calc(100% - 2px);
+	right: 10px;
+	transform: rotate(180deg);
+}

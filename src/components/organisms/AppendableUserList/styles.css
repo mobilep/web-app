@@ -1,0 +1,14 @@
+.AppendableUserList-userItem {
+	display: flex;
+	justify-content: space-between;
+}
+
+.AppendableUserList-userItem + .AppendableUserList-userItem,
+.AppendableUserList-UserSearchSelect {
+	margin-top: 10px;
+}
+
+.AppendableUserList-trashIcon {
+	width: 20px;
+	height: 20px;
+}

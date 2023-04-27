@@ -1,0 +1,27 @@
+.ConnectionNotification {
+	display: flex;
+	height: 300px;
+	width: 500px;
+}
+
+.ConnectionNotification-wrapper {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+	justify-content: space-evenly;
+}
+
+.ConnectionNotification-title {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+@media (max-width: 768px) {
+	.ConnectionNotification {
+		border-radius: 0;
+		height: 100%;
+		text-align: center;
+		width: 100%;
+	}
+}

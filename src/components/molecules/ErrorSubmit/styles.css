@@ -1,0 +1,9 @@
+.ErrorSubmit svg {
+	width: 60px;
+	height: 60px;
+	color: var(--tomatoRed);
+}
+
+.ErrorSubmit {
+	padding: 40px;
+}

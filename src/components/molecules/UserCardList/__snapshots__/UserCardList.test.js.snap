@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - UserCardList Should render 1`] = `
+<ul
+  className="UserCardList"
+>
+  <li
+    className="UserCardList-item"
+    key="5ac33a66b6c2a8602917029e"
+    onClick={[Function]}
+  >
+    <NewMessageCard
+      active={false}
+      avatar="https://s3-eu-west-1.amazonaws.com/mobilepractice-photo/public/100/8B613058-7CF1-4129-90AD-4A60AEC21671.jpg"
+      avatarColor="f946e9"
+      first={true}
+      person="Apple Apple"
+      personInitials="AA"
+    />
+  </li>
+  <li
+    className="UserCardList-item"
+    key="5c33a66b665860251702439"
+    onClick={[Function]}
+  >
+    <NewMessageCard
+      active={false}
+      avatar="https://s3-eu-west-1.amazonaws.com/mobilepractice-photo/public/100/81E557EC-D0CA-491C-971D-FC7B5CAB1B3C.jpg"
+      avatarColor="f946e9"
+      first={false}
+      person="Grape Grape"
+      personInitials="GG"
+    />
+  </li>
+</ul>
+`;

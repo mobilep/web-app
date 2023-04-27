@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - DragAndDropFileInfo Should render 1`] = `
+<div
+  className="DragAndDropFileInfo"
+>
+  7
+   
+  Formats text
+   
+  <span>
+    MP4
+  </span>
+  , 
+  <span>
+    MP3
+  </span>
+  . 
+  Max file size text
+   
+  <span>
+    52
+     MB
+  </span>
+  .
+</div>
+`;

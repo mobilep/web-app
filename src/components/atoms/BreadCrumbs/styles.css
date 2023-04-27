@@ -1,0 +1,14 @@
+.BreadCrumbs-item {
+	color: var(--black);
+	font-weight: 500;
+}
+
+.BreadCrumbs-item:not(:last-child) {
+	color: var(--grey3);
+}
+
+.BreadCrumbs-item:not(:last-child)::after {
+	content: '/\00a0';
+	display: inline-block;
+	margin-left: 5px;
+}

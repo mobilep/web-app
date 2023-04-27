@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - ProgressBar Should render 1`] = `
+<div
+  className="ProgressBar"
+>
+  <div
+    className="ProgressBar-number"
+  >
+    15
+     %
+  </div>
+  <div
+    className="ProgressBar-bar"
+  />
+  <div
+    className="ProgressBar-value"
+    style={
+      Object {
+        "width": "15%",
+      }
+    }
+  />
+</div>
+`;

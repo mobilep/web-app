@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - NewMessageCard Should render 1`] = `
+<Wrapper
+  avatar="https://i.ytimg.com/vi/tESeU278FpU/maxresdefault.jpg"
+  className="NewMessageCard "
+  person="Alvin Lane"
+  personInitials="AL"
+  type="NEW_MESSAGE_CARD"
+/>
+`;
+
+exports[`Molecule - NewMessageCard Should render in active state 1`] = `
+<Wrapper
+  active={true}
+  avatar="https://i.ytimg.com/vi/tESeU278FpU/maxresdefault.jpg"
+  className="NewMessageCard "
+  person="Alvin Lane"
+  personInitials="AL"
+  type="NEW_MESSAGE_CARD"
+/>
+`;

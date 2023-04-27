@@ -1,0 +1,28 @@
+.OverlayButton,
+.OverlayButton:hover {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	padding: 0;
+	border: none;
+	border-radius: unset;
+	background-color: transparent;
+	color: var(--tomatoRed);
+	cursor: pointer;
+}
+
+.OverlayButton svg {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+
+.OverlayButton svg g {
+	stroke: var(--tomatoRed);
+}
+
+.OverlayButton .OverlayButton-label {
+	font-size: 22px;
+}

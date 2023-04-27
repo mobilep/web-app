@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - MPPImage Should render 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "rgba(243,66,60,1)",
+    }
+  }
+/>
+`;
+
+exports[`Atom - MPPImage Should render with valid image 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "rgba(243,66,60,1)",
+    }
+  }
+/>
+`;

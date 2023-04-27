@@ -1,0 +1,16 @@
+.MessageBoxBaseButton,
+.MessageBoxBaseButton:hover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: var(--white);
+	color: var(--grey3);
+}
+
+.MessageBoxBaseButton svg {
+	width: 30px;
+}

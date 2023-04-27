@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - ProfileAvatar Should render 1`] = `
+<div
+  className="ProfileAvatar"
+>
+  <Avatar
+    border={false}
+    color="#87d4ee"
+    img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlUvtjoDyRYSmS6hoSVke1HcE-3ZeLGHLR7RnTIBp3jAYv39B"
+    initials="JD"
+    size="avatar-70"
+  />
+  <WithUpload(Component)
+    className="ProfileAvatar-text"
+    fileType="photo"
+    onSend={[Function]}
+  >
+    Edit
+  </WithUpload(Component)>
+</div>
+`;

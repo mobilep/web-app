@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - Avatar Should render with size 'avatar-22' 1`] = `
+<div
+  className="Avatar Avatar-22"
+  style={
+    Object {
+      "backgroundColor": "#808080",
+    }
+  }
+>
+  TM
+</div>
+`;
+
+exports[`Atom - Avatar Should render with size 'avatar-28' 1`] = `
+<div
+  className="Avatar Avatar-28"
+  style={
+    Object {
+      "backgroundColor": "#808080",
+    }
+  }
+>
+  TM
+</div>
+`;
+
+exports[`Atom - Avatar Should render with size 'avatar-44' 1`] = `
+<div
+  className="Avatar Avatar-44"
+  style={
+    Object {
+      "backgroundColor": "#808080",
+    }
+  }
+>
+  TM
+</div>
+`;
+
+exports[`Atom - Avatar Should render with size 'avatar-50' 1`] = `
+<div
+  className="Avatar Avatar-50"
+  style={
+    Object {
+      "backgroundColor": "#808080",
+    }
+  }
+>
+  TM
+</div>
+`;
+
+exports[`Atom - Avatar Should render with size 'avatar-60' 1`] = `
+<div
+  className="Avatar Avatar-60"
+  style={
+    Object {
+      "backgroundColor": "#808080",
+    }
+  }
+>
+  TM
+</div>
+`;
+
+exports[`Atom - Avatar Should render with size 'avatar-70' 1`] = `
+<div
+  className="Avatar Avatar-70"
+  style={
+    Object {
+      "backgroundColor": "#808080",
+    }
+  }
+>
+  TM
+</div>
+`;
+
+exports[`Atom - Avatar Should render with size 'avatar-80' 1`] = `
+<div
+  className="Avatar Avatar-80"
+  style={
+    Object {
+      "backgroundColor": "#808080",
+    }
+  }
+>
+  TM
+</div>
+`;
+
+exports[`Atom - Avatar Should render with size 'avatar-100' 1`] = `
+<div
+  className="Avatar Avatar-100"
+  style={
+    Object {
+      "backgroundColor": "#808080",
+    }
+  }
+>
+  TM
+</div>
+`;
+
+exports[`Atom - Avatar Should render with size 'avatar-196' 1`] = `
+<div
+  className="Avatar Avatar-196"
+  style={
+    Object {
+      "backgroundColor": "#808080",
+    }
+  }
+>
+  TM
+</div>
+`;

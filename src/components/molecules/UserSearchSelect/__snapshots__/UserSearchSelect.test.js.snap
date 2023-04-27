@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecule - UserSearchSelect Should render 1`] = `
+<div
+  className="UserSearchSelect undefined"
+>
+  <AddItem
+    className="UserSearchSelect-addItem"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    placeholder="Placeholder"
+    value=""
+  />
+</div>
+`;

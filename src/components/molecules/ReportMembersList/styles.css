@@ -1,0 +1,24 @@
+.ReportMembersList {
+	padding: 0 16px;
+	font-size: var(--baseFontSize);
+}
+
+.ReportMembersList-item,
+.ReportMembersList-item:hover {
+	align-items: center;
+	color: var(--black);
+	display: flex;
+	padding-bottom: 14px;
+	text-decoration: none;
+}
+
+.ReportMembersList-item:not(:last-child) {
+	border-bottom: 1px solid var(--grey2);
+	margin-bottom: 14px;
+}
+
+@media (max-width: 768px) {
+	.ReportMembersList {
+		padding: 0;
+	}
+}

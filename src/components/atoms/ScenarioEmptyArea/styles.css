@@ -1,0 +1,27 @@
+.ScenarioEmptyArea {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ScenarioEmptyArea svg {
+	width: 217px;
+	height: 201px;
+}
+
+.ScenarioEmptyArea-icon {
+	color: var(--grey5);
+}
+
+.ScenarioEmptyArea-text {
+	color: var(--grey3);
+}
+
+@media (max-width: 768px) {
+	.ScenarioEmptyArea {
+		display: none;
+	}
+}

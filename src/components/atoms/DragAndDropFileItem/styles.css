@@ -1,0 +1,70 @@
+.DragAndDropFileItem {
+	display: flex;
+	padding: 10px 0;
+
+	--closeButtonSize: 30px;
+	--iconSize: 42px;
+	--btnAreaWidth: var(--closeButtonSize);
+	--mainAreaWidth: calc(100% - var(--iconSize) - var(--btnAreaWidth));
+}
+
+.DragAndDropFileItem-icon {
+	flex: 0 0 var(--iconSize);
+}
+
+.DragAndDropFileItem-main {
+	flex: 0 0 var(--mainAreaWidth);
+	max-width: var(--mainAreaWidth);
+	padding: 0 20px;
+}
+
+.DragAndDropFileItem-side {
+	flex: 0 0 var(--btnAreaWidth);
+	display: flex;
+}
+
+.DragAndDropFileItem-icon svg {
+	width: var(--iconSize);
+	height: var(--iconSize);
+	color: var(--tomatoRed);
+}
+
+.DragAndDropFileItem-info {
+	display: flex;
+	align-items: center;
+}
+
+.DragAndDropFileItem-name {
+	font-size: 14px;
+	line-height: 19px;
+	color: var(--black2);
+	font-weight: var(--semiBold);
+	flex: 0 0 calc(100% - 100px);
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.DragAndDropFileItem-size {
+	font-size: 12px;
+	line-height: 17px;
+	font-weight: var(--normal);
+	color: var(--grey3);
+	padding-left: 30px;
+}
+
+.DragAndDropFileItem-side > button {
+	width: var(--closeButtonSize);
+	height: var(--closeButtonSize);
+	color: var(--grey3);
+	border: none;
+	padding: 0;
+	background-color: transparent;
+	cursor: pointer;
+	align-self: center;
+}
+
+.DragAndDropFileItem-side > button svg {
+	width: var(--closeButtonSize);
+	height: var(--closeButtonSize);
+}

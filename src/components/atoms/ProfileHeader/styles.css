@@ -1,0 +1,54 @@
+/* styles are also used by MemberProfile component */
+
+.ProfileHeader {
+	align-items: center;
+	background-color: var(--grey1);
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+	width: 100%;
+}
+
+.ProfileHeader-infoWrapper {
+	max-width: 500px;
+	min-width: 0;
+}
+
+.ProfileAvatar {
+	margin-right: 20px;
+	flex-shrink: 0;
+}
+
+.ProfileHeader-name {
+	font-size: 30px;
+	color: var(--almostBlack);
+}
+
+.ProfileHeader-company {
+	font-size: 16px;
+	color: var(--grey3);
+}
+
+@media (max-width: 768px) {
+	.ProfileHeader {
+		justify-content: flex-start;
+		padding: 16px;
+	}
+
+	.ProfileHeader-infoWrapper {
+		flex-grow: 1;
+	}
+
+	.ProfileAvatar {
+		margin-right: 10px;
+	}
+
+	.ProfileHeader-name {
+		font-size: 22px;
+	}
+
+	.ProfileHeader-company {
+		font-size: 14px;
+		margin-top: 0;
+	}
+}

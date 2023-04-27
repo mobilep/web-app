@@ -1,0 +1,32 @@
+.ScenarioSection {
+	padding: var(--scenario-section-vertical-padding) 0;
+	border-top: var(--lightBorder);
+}
+
+.ScenarioSection-header {
+	font-size: 12px;
+	color: var(--grey3);
+	display: flex;
+	justify-content: space-between;
+}
+
+.ScenarioSection-content {
+	width: 100%;
+	margin-top: 12px;
+	flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+	.ScenarioSection {
+		--scenario-section-vertical-padding: 15px;
+	}
+}
+
+.ScenarioSection-wrapperContent {
+	display: flex;
+	max-height: 500px;
+}
+
+.ScenarioSection-errorContent {
+	width: 40px;
+}

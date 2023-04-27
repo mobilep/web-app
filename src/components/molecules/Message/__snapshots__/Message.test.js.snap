@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - Message should render with type evaluation 1`] = `
+<div
+  className="Message"
+>
+  <div
+    onContextMenu={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+  >
+    <MessageBubble
+      className="Message-content"
+      incoming={false}
+      singleOrLast={true}
+      timeStamp={NaN}
+    >
+      Text
+      <br />
+      <div
+        className="Message-evaluationMessage"
+      >
+        <EvaluationIcon
+          className="Message-evaluationIcon"
+        />
+        <Button
+          className="Message-evaluation-details"
+          onClick={[Function]}
+        >
+          3
+           · 
+          View details
+        </Button>
+      </div>
+    </MessageBubble>
+  </div>
+</div>
+`;
+
+exports[`Atom - Message should render with type video 1`] = `
+<div
+  className="Message"
+>
+  <div
+    onContextMenu={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+  >
+    <MessageBubble
+      className="Message-content"
+      incoming={false}
+      partial={true}
+      singleOrLast={true}
+      timeStamp={NaN}
+    />
+    <VideoTile
+      className="Message-content Message-partial-content"
+      onVideoSend={[Function]}
+      plusIcon={true}
+      thumbnailUrl=""
+      type="default"
+      uploadVideoDialogProps={Object {}}
+    />
+  </div>
+</div>
+`;
+
+exports[`Atom - Message with type text should render 1`] = `
+<div
+  className="Message"
+>
+  <div
+    onContextMenu={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+  >
+    <MessageBubble
+      className="Message-content"
+      incoming={false}
+      singleOrLast={true}
+      timeStamp={NaN}
+    >
+      Some content
+      <br />
+    </MessageBubble>
+  </div>
+</div>
+`;
+
+exports[`Atom - Message with type text should render with linebreaks 1`] = `
+<div
+  className="Message"
+>
+  <div
+    onContextMenu={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+  >
+    <MessageBubble
+      className="Message-content"
+      incoming={false}
+      singleOrLast={true}
+      timeStamp={NaN}
+    >
+      abc
+      <br />
+      <br />
+      abc
+      <br />
+    </MessageBubble>
+  </div>
+</div>
+`;

@@ -1,0 +1,57 @@
+.DragAndDropBrowse {
+	height: 215px;
+	padding: 0 45px;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--grey1);
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.DragAndDropBrowse-paragraph {
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: var(--semiBold);
+	color: var(--black2);
+}
+
+.DragAndDropBrowse-browseBtn {
+	min-width: 150px;
+	min-height: 36px;
+	margin-top: 30px;
+	padding: 0 10px;
+}
+
+.DragAndDropBrowse-browseBtn label {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	line-height: 34px;
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.DragAndDropBrowse {
+		height: 80px;
+		border-radius: 0;
+	}
+
+	.DragAndDropBrowse-paragraph {
+		display: none;
+	}
+
+	.DragAndDropBrowse-browseBtn {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 320px) {
+	.DragAndDropBrowse {
+		height: 60px;
+	}
+
+	.DragAndDrop-main {
+		margin-top: 40px;
+	}
+}

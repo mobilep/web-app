@@ -1,0 +1,40 @@
+.DialogWithButtonGroup {
+	padding: 130px 94px;
+	flex-direction: column;
+
+	/* Fix for Safari dialog */
+	width: 570px;
+	height: 350px;
+}
+
+.DialogWithButtonGroup-content {
+	margin-bottom: 60px;
+}
+
+.DialogWithButtonGroup-buttonGroup button {
+	font-size: 16px;
+	margin: 0 5px;
+	min-width: 150px;
+}
+
+@media (max-width: 768px) {
+	.DialogWithButtonGroup-content {
+		font-size: 20px;
+	}
+
+	.DialogWithButtonGroup {
+		width: 90%;
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-top: 64px;
+		padding-bottom: 49px;
+	}
+
+	.DialogWithButtonGroup-buttonGroup button {
+		min-width: 126px;
+	}
+
+	.DialogWithButtonGroup-buttonGroup {
+		display: flex;
+	}
+}

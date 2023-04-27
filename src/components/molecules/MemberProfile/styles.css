@@ -1,0 +1,9 @@
+.ProfileHeader.MemberProfile {
+	padding-top: 0;
+}
+
+@media (max-width: 768px) {
+	.ProfileHeader.MemberProfile {
+		padding: 16px 0;
+	}
+}

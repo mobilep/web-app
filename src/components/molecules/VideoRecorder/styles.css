@@ -1,0 +1,83 @@
+.VideoRecorder-container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.VideoRecorder-container video {
+	display: block;
+}
+
+.VideoRecorder-container .SwitchQuality-button {
+	display: block;
+	border: 0;
+	position: absolute;
+	right: 20px;
+	padding: 5px;
+	cursor: pointer;
+	color: var(--transparentGrey1);
+	box-shadow: inset 0 0 1px 0 var(--transparentGrey1);
+	border-radius: 4px;
+	transition: all ease .3s;
+}
+
+.VideoRecorder-container .SwitchQuality-button.enabled {
+	font-weight: 600;
+	color: var(--tomatoRed);
+	box-shadow: inset 0 0 0 2px var(--tomatoRed);
+}
+
+.VideoRecorder-container .SwitchQuality-button:active {
+	background-color: var(--transparentGrey1);
+}
+
+.VideoRecorder-panel {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, .85);
+}
+
+.VideoRecorder-panel .TimerDisplay {
+	position: absolute;
+	left: 20px;
+}
+
+.VideoRecorder-container.VideoRecorder-mobile {
+	height: 100%;
+}
+
+.VideoRecorder-container.VideoRecorder-mobile .VideoRecorder-panel {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.VideoRecorder-container .SwitchCamera-button {
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 50px;
+	height: 50px;
+}
+
+.VideoRecorder-container .SwitchCamera-button svg {
+	width: 100%;
+	height: 100%;
+	color: var(--white);
+}
+
+@media (orientation: landscape) {
+	.VideoRecorder-container video {
+		width: 100%;
+	}
+}
+
+@media (orientation: portrait) {
+	.VideoRecorder-container video {
+		height: 100%;
+	}
+}

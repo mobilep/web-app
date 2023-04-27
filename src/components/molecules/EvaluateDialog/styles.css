@@ -1,0 +1,106 @@
+.EvaluateDialog {
+	padding: 24px 0 44px;
+	width: 560px;
+}
+
+.EvaluateDialog--avatar {
+	margin: 25px 0;
+}
+
+.EvaluateDialog--avatar > div {
+	margin: 0 auto;
+}
+
+.EvaluateDialog-header {
+	text-align: center;
+	margin: 0 auto 6px;
+	color: var(--black2);
+	font-weight: var(--semiBold);
+	font-size: 22px;
+	line-height: 30px;
+	letter-spacing: .4px;
+	word-break: break-word;
+	padding: 0 40px;
+}
+
+.EvaluateDialog-paragraph {
+	text-align: center;
+	color: var(--grey3);
+	font-weight: var(--normal);
+	font-size: 14px;
+	line-height: 19px;
+	padding-bottom: 10px;
+}
+
+.EvaluateDialog-row {
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.EvaluateDialog-rangeTitle {
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: var(--normal);
+	color: var(--black2);
+	text-align: left;
+	padding-bottom: 9px;
+}
+
+.EvaluateDialog-row:last-child {
+	padding-top: 30px;
+	width: 100%;
+}
+
+.EvaluateDialog-row:last-child button {
+	margin: 0 10px;
+}
+
+.EvaluateDialog-row-invisible {
+	display: none;
+}
+
+.EvaluateDialog-range {
+	overflow-y: auto;
+	max-height: calc(100% - 195px);
+}
+
+@media (max-width: 768px) {
+	.EvaluateDialog-paragraph {
+		text-transform: uppercase;
+	}
+}
+
+@media (max-width: 345px) {
+	.EvaluateDialog-row {
+		width: unset;
+	}
+
+	.EvaluateDialog--avatar {
+		margin: 0;
+	}
+
+	.EvaluateDialog--avatar > div {
+		height: 55px;
+		width: 55px;
+		margin-top: 10px;
+	}
+
+	.EvaluateDialog-header {
+		font-size: 16px;
+		padding: 0 20px;
+	}
+
+	.EvaluateDialog-range {
+		max-height: 80%;
+	}
+
+	.Conversation-evaluate-mobile-header {
+		max-height: 50px;
+	}
+
+	.EvaluateDialog-paragraph {
+		font-size: 12px;
+		padding-bottom: 5px;
+	}
+}

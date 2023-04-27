@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="2-a" x1="0%" x2="100%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#7EB1C2"/>
+      <stop offset="100%" stop-color="#528AA1"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="20" cy="20" r="20" fill="url(#2-a)"/>
+    <circle cx="20.202" cy="12.929" r="2.929" stroke="#FFF" stroke-width="1.818"/>
+    <path stroke="#FFF" stroke-linecap="round" stroke-width="1.818" d="M26.3636364,26.3636364 C26.3636364,22.849097 23.5145393,20 20,20 C16.4854607,20 13.6363636,22.849097 13.6363636,26.3636364"/>
+    <circle cx="29.242" cy="16.515" r="1.97" stroke="#FFF" stroke-width="1.818"/>
+    <path stroke="#FFF" stroke-linecap="round" stroke-width="1.818" d="M34.5454545,26.969697 C34.5454545,24.2361664 32.3294902,22.020202 29.5959596,22.020202"/>
+    <g stroke="#FFF" stroke-width="1.818" transform="matrix(-1 0 0 1 11.818 15.455)">
+      <circle cx="1.061" cy="1.061" r="1.97"/>
+      <path stroke-linecap="round" d="M6.36363636,11.5151515 C6.36363636,8.78162094 4.14767199,6.56565657 1.41414141,6.56565657"/>
+    </g>
+  </g>
+</svg>

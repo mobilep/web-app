@@ -1,0 +1,53 @@
+.TeamCard {
+	display: flex;
+	min-height: 82px;
+	align-items: center;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	width: 100%;
+	position: relative;
+	border-bottom: var(--lightBorder);
+}
+
+.TeamCard:hover,
+.TeamCard-active {
+	cursor: default;
+}
+
+.TeamCard-header {
+	font-size: 16px;
+	color: var(--almostBlack);
+	letter-spacing: -.3px;
+	margin-bottom: 4px;
+	overflow-wrap: break-word;
+}
+
+.TeamCard-active .TeamCard-header {
+	font-weight: 700;
+}
+
+.TeamCard-counter {
+	background-color: var(--grey3);
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+}
+
+.TeamCard .TeamCard-counter {
+	color: white;
+}
+
+.TeamCard-left-content {
+	width: calc(100% - 20px);
+}
+
+@media (max-width: 768px) {
+	.TeamCard {
+		padding: 10px 10px 10px 0;
+	}
+}

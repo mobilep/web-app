@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - Link Should render 1`] = `
+<Link
+  className="Link"
+  replace={false}
+  to="morrow"
+>
+  Link text
+</Link>
+`;

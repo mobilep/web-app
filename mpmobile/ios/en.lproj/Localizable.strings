@@ -1,0 +1,15 @@
+/*
+  Localizable.strings
+  mpmobile
+
+  Created by Artem Arkhipov on 26.06.2020.
+
+*/
+
+// MARK: - Notifications
+
+"INBOX_MESSAGE" = "%@: %@";
+"PRACTICE_ASSIGNED" = "%@";
+"PRACTICE_ASSIGNED_TITLE" = "New scenario to practice";
+"PRACTICE_EVALUATED" = "Rating received";
+"BEST_PRACTICE_SAVED" = "Nice work, your video reply to %@ has been chosen as a best practice!";

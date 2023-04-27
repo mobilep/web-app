@@ -1,0 +1,87 @@
+.Account {
+	background: url('/on-boarding.jpg') no-repeat;
+	background-size: cover;
+	color: var(--white);
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	overflow: auto;
+}
+
+.Account-header {
+	display: flex;
+	height: var(--onboarding-header-height-desktop);
+	padding: 0 40px;
+	flex-shrink: 0;
+}
+
+.Account-logoWrapper {
+	align-items: center;
+	display: flex;
+}
+
+.Account-logoWrapper svg {
+	width: 40px;
+	height: 40px;
+}
+
+.Account-logoWrapper span {
+	margin-left: 10px;
+}
+
+.Account-content {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.Account-formWrapper {
+	margin: auto;
+	width: 450px;
+	padding-bottom: 2em;
+}
+
+.Account-formWrapper form {
+	width: 320px;
+}
+
+.Account-linkWrapper {
+	margin-top: 20px;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.Account-header {
+		height: 80px;
+		margin-top: 40px;
+		justify-content: center;
+	}
+
+	.Account-logoWrapper svg {
+		width: 50px;
+		height: 50px;
+	}
+
+	.Account-formWrapper form {
+		width: 100%;
+	}
+
+	.Account-formWrapper {
+		max-width: 300px;
+	}
+
+	.Account-logoWrapper span {
+		display: none;
+	}
+
+	.Account-content {
+		overflow-y: auto;
+		margin: unset;
+	}
+}
+
+@media (width: 280px) {
+	.Account-formWrapper {
+		max-width: 250px;
+	}
+}

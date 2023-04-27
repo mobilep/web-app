@@ -1,0 +1,19 @@
+.SendReminderPage .SendReminderPage-mobileHeader {
+	position: relative;
+	grid-area: header;
+	margin-bottom: 16px;
+}
+
+.SendReminderPage .GroupChatHeader {
+	grid-area: messageList;
+}
+
+@media (max-width: 768px) {
+	.SendReminderPage .GroupChatHeader {
+		padding: 0 15px 10px 15px;
+	}
+
+	.SendReminderPage .MessageBox-textArea {
+		height: 110px;
+	}
+}

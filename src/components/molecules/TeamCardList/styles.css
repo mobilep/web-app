@@ -1,0 +1,37 @@
+.TeamCardList {
+	height: 100%;
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+}
+
+.TeamCardList-item {
+	list-style: none;
+}
+
+.TeamCardList-link:hover {
+	text-decoration: none;
+}
+
+.TeamCardList-empty {
+	color: var(--grey3);
+	padding: 10px 20px;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.TeamCardList-active {
+		visibility: visible;
+		height: 100%;
+		overflow-x: hidden;
+	}
+
+	.TeamCardList-empty {
+		padding: 20px 20px;
+		font-size: 20px;
+	}
+
+	.TeamCardList-item {
+		padding-left: 10px;
+	}
+}

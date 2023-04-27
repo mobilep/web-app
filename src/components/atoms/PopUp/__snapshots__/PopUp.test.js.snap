@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - PopUp Should render with position bottomLeft 1`] = `
+<div
+  className="PopUp PopUp-background-white"
+>
+  <div
+    className="PopUp-triangle PopUp-bottomLeft"
+  />
+  <div>
+    Text
+  </div>
+</div>
+`;
+
+exports[`Atom - PopUp Should render with position bottomRight 1`] = `
+<div
+  className="PopUp PopUp-background-white"
+>
+  <div
+    className="PopUp-triangle PopUp-bottomRight"
+  />
+  <div>
+    Text
+  </div>
+</div>
+`;
+
+exports[`Atom - PopUp Should render with position left 1`] = `
+<div
+  className="PopUp PopUp-background-white"
+>
+  <div
+    className="PopUp-triangle PopUp-left"
+  />
+  <div>
+    Text
+  </div>
+</div>
+`;
+
+exports[`Atom - PopUp Should render with position right 1`] = `
+<div
+  className="PopUp PopUp-background-white"
+>
+  <div
+    className="PopUp-triangle PopUp-right"
+  />
+  <div>
+    Text
+  </div>
+</div>
+`;
+
+exports[`Atom - PopUp Should render with position topLeft 1`] = `
+<div
+  className="PopUp PopUp-background-white"
+>
+  <div
+    className="PopUp-triangle PopUp-topLeft"
+  />
+  <div>
+    Text
+  </div>
+</div>
+`;
+
+exports[`Atom - PopUp Should render with position topRight 1`] = `
+<div
+  className="PopUp PopUp-background-white"
+>
+  <div
+    className="PopUp-triangle PopUp-topRight"
+  />
+  <div>
+    Text
+  </div>
+</div>
+`;
